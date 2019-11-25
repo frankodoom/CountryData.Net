@@ -1,0 +1,9 @@
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\bin\Debug\netstandard2.0\CountryData.Standard.deps.json
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\bin\Debug\netstandard2.0\CountryData.Standard.dll
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\bin\Debug\netstandard2.0\CountryData.Standard.pdb
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.AssemblyInfoInputs.cache
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.AssemblyInfo.cs
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.dll
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.pdb
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.csprojAssemblyReference.cache
+C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\bin\Debug\netstandard2.0\data.json
