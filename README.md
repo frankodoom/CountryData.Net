@@ -13,9 +13,9 @@
 ### Get list of Countries 
 ```cSharp
        var countries = helper.GetCountries();
-       foreach (var item in countries)
+       foreach (var country in countries)
        {
-        Console.WriteLine(item);
+        Console.WriteLine(country);
        }
 ```
 
@@ -25,7 +25,7 @@
        var regions = helper.GetRegionByCountryCode("GH");
        foreach (var region in regions)
        {
-        Console.WriteLine(item.Name);
+        Console.WriteLine(region.Name);
        }
 ```
 
@@ -39,7 +39,7 @@
       var countries = data.Select(c => c.CountryName).ToList();
        foreach (var country in countries)
        {
-        Console.WriteLine(item);
+        Console.WriteLine(country);
        }
        
        
