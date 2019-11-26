@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\u\\Documents\\CountryData.Standard\\CountryData.Standard.csproj": {}
+    "C:\\Users\\FrankOdoom\\Desktop\\Labs\\open-source\\CountryData.Standard\\CountryData.Standard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\u\\Documents\\CountryData.Standard\\CountryData.Standard.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\FrankOdoom\\Desktop\\Labs\\open-source\\CountryData.Standard\\CountryData.Standard.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\u\\Documents\\CountryData.Standard\\CountryData.Standard.csproj",
+        "projectUniqueName": "C:\\Users\\FrankOdoom\\Desktop\\Labs\\open-source\\CountryData.Standard\\CountryData.Standard.csproj",
         "projectName": "CountryData.Standard",
-        "projectPath": "C:\\Users\\u\\Documents\\CountryData.Standard\\CountryData.Standard.csproj",
-        "packagesPath": "C:\\Users\\u\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\u\\Documents\\CountryData.Standard\\obj\\",
+        "projectPath": "C:\\Users\\FrankOdoom\\Desktop\\Labs\\open-source\\CountryData.Standard\\CountryData.Standard.csproj",
+        "packagesPath": "C:\\Users\\FrankOdoom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FrankOdoom\\Desktop\\Labs\\open-source\\CountryData.Standard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\u\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Users\\FrankOdoom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,11 +26,8 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://accededevteam.pkgs.visualstudio.com/_packaging/DevFeed/nuget/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/v7aYrEMVJxPS3BWcMo5ijD2svwwknYzijrVJobwGmBBmpVlJq2/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
