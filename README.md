@@ -33,20 +33,21 @@
 ### Using lambda for custom querries
 #### `GetCountryData()` returns an `IEnumerable<Country>` which can be querried with Lambda for a more flexible usage.
 ```cSharp
+      //example1
       var data = helper.GetCountryData();
        //get list of countries by their Names
       var countries = data.Select(c => c.CountryName).ToList();
        foreach (var item in countries)
        {
         Console.WriteLine(item);
-       }*/
+       }
+       
+       
+       //example 2
+       data.Where(x => x.CountryShortCode == "US")
+                              .Select(r=>r.Regions).FirstOrDefault()
+                              .ToList();
 ```
-
-
-
-
-
-
 
 
 
