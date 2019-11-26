@@ -5,7 +5,7 @@
 ### Initialize the Country data object
 
 ```cSharp
-       //loads all Country Data in the constructor (You can initialize this once as a singleton and use throughout ur app)
+       //loads all Country Data in the constructor (You can initialize this once as a singleton)
        var helper = new CountryHelper();
 ```
 
