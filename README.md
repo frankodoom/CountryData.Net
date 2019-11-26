@@ -2,6 +2,12 @@
 :earth_africa: A simple cross platform offline .NET library for getting Global Country Data
 
 
+### Install Library
+```cSharp
+   PM> Install-Package CountryData.Standard
+```
+
+
 ### Initialize the Country data object
 
 ```cSharp
