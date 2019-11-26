@@ -5,7 +5,7 @@
 ### Initialize the Country data object
 
 ```cSharp
-       //load all countries
+       //loads all Country Data in the constructor (You can initialize this once as a singleton and use throughout ur app)
        var helper = new CountryHelper();
 ```
 
@@ -23,7 +23,7 @@
 ### Get list of Regions in a Country by Country Code
 ```cSharp
        var regions = helper.GetRegionByCountryCode("GH");
-       foreach (var item in regions)
+       foreach (var region in regions)
        {
         Console.WriteLine(item.Name);
        }
@@ -37,7 +37,7 @@
       var data = helper.GetCountryData();
        //get list of countries by their Names
       var countries = data.Select(c => c.CountryName).ToList();
-       foreach (var item in countries)
+       foreach (var country in countries)
        {
         Console.WriteLine(item);
        }
