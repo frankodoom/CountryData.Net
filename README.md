@@ -52,7 +52,7 @@
 
 ### Comming Soon
 * Support for more ISO Standard Country Data
-* Support for 3166 Country A3 Codes
+* Support for ISO 3166 Country A3 Codes
 * Country ShortCode Enums
 
 
