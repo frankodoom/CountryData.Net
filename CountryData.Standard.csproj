@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Accede</Company>
+    <Description>A Cross Platform .NET wrapper for getting Global Country , Short-code and Region Data.</Description>
+    <PackageProjectUrl>https://github.com/frankodoom/CountryData.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/frankodoom/CountryData.Standard</RepositoryUrl>
+    <PackageTags>Xamarin, Country-Api Country-Data Country-Region</PackageTags>
+    <NeutralLanguage />
   </PropertyGroup>
 
   <ItemGroup>
