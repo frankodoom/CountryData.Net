@@ -10,12 +10,26 @@ namespace CountryData.Standard
 {
     public class CountryHelper
     {
-       private readonly IEnumerable<Country> _Countries;
-       public CountryHelper()
-       {
-            var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"data.json");
-            var json = File.ReadAllText(path);
+        private readonly IEnumerable<Country> _Countries;
+        private const string strFileName = "CountryData.Standard.data.json";
+        public CountryHelper()
+         {          
+            var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
+        }
+
+
+        private string GetJsonData(string path)
+        {
+            string json = "";
+            var assembly = Assembly.GetExecutingAssembly();
+            using (Stream stream = assembly.GetManifestResourceStream(path))
+            {
+                var reader = new StreamReader(stream);
+               json=  reader.ReadToEnd();
+
+            }
+            return json;
         }
 
         /// <summary>
