@@ -10,15 +10,33 @@ namespace CountryData.Standard
 {
     public class CountryHelper
     {
-       private readonly IEnumerable<Country> _Countries;
-       public CountryHelper()
-       {
-            var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"data.json");
-            var json = File.ReadAllText(path);
+        private readonly IEnumerable<Country> _Countries;
+        private const string strFileName = "CountryData.Standard.data.json";
+        public CountryHelper()
+         {          
+            var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
         }
 
 
+        private string GetJsonData(string path)
+        {
+            string json = "";
+            var assembly = Assembly.GetExecutingAssembly();
+            using (Stream stream = assembly.GetManifestResourceStream(path))
+            {
+                var reader = new StreamReader(stream);
+               json=  reader.ReadToEnd();
+
+            }
+            return json;
+        }
+
+        /// <summary>
+        /// Returns All Country Data (Region, ShortCode, Country Name)
+        /// that can be querried by Lambda Expressions
+        /// </summary>
+        /// <returns>IEnumerable<Country></returns>
         public IEnumerable<Country> GetCountryData()
         {
             return _Countries;
@@ -26,7 +44,7 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        /// Returns A particular Country and its Regions by Its ShortCoded
+        /// Returns Country Data by ShortCode
         /// </summary>
         /// <param name="ShortCode"></param>
         /// <returns>IEnumerable<Country></returns>
@@ -36,8 +54,8 @@ namespace CountryData.Standard
         }
 
 
-        /// <summary>
-        /// Select Regions in a Particular Country
+         /// <summary>
+        /// Selects Regions in a Particular Country
         /// </summary>
         /// <param name="ShortCode"></param>
         /// <returns>List<Regions> a list of regions</returns>
@@ -48,6 +66,20 @@ namespace CountryData.Standard
                               .ToList();
         }
 
+        /// <summary>
+        /// Gets the list of all countries in the worlld
+        /// </summary>
+        /// <returns>List<String> countries</returns>
+        public List<String> GetCountries()
+        {
+            List<String> data = new List<string>();
+            var countries = _Countries.Select(c => c.CountryName).ToList();
+            foreach (var item in countries)
+            {
+                data.Add(item);
+            }
+            return countries;
+        }
 
     }
 }
