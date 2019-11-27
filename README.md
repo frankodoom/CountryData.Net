@@ -1,5 +1,5 @@
 # CountryData.Standard
-:earth_africa: A simple cross platform offline .NET library for getting Global Country Data
+:earth_africa: A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
 
 ### Install Library
