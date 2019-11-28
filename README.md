@@ -4,7 +4,7 @@
 
 ### Install Library
 ```cSharp
-   PM> Install-Package CountryData.Standard 1.0.1
+   PM> Install-Package CountryData.Standard -Version 1.0.1
 ```
 
 
