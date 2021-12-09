@@ -6,3 +6,11 @@ C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj
 C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.AssemblyInfo.cs
 C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.dll
 C:\Users\FrankOdoom\source\repos\Country.Data.Standard\Country.Data.Standard\obj\Debug\netstandard2.0\CountryData.Standard.pdb
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\bin\Debug\netstandard2.0\CountryData.Standard.deps.json
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\bin\Debug\netstandard2.0\CountryData.Standard.dll
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\bin\Debug\netstandard2.0\CountryData.Standard.pdb
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\obj\Debug\netstandard2.0\CountryData.Standard.csprojAssemblyReference.cache
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\obj\Debug\netstandard2.0\CountryData.Standard.AssemblyInfoInputs.cache
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\obj\Debug\netstandard2.0\CountryData.Standard.AssemblyInfo.cs
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\obj\Debug\netstandard2.0\CountryData.Standard.dll
+C:\Users\FrankOdoom\Desktop\Labs\open-source\CountryData.Standard\obj\Debug\netstandard2.0\CountryData.Standard.pdb

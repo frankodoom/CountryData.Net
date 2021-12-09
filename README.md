@@ -1,5 +1,11 @@
 # CountryData.Standard
-:earth_africa: A simple cross platform offline .NET library for getting Global Country Data
+:earth_africa: A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
+
+
+### Install Library
+```cSharp
+   PM> Install-Package CountryData.Standard -Version 1.0.1
+```
 
 
 ### Initialize the Country data object
@@ -53,13 +59,14 @@
 ### Comming Soon
 * Support for more ISO Standard Country Data
 * Support for ISO 3166 Country A3 Codes
+* Support for Country Phone Code
 * Country ShortCode Enums
 
 
 ```
 The MIT License
 
-Copyright (c) 2019 Frank Odoom
+Copyright (c) 2019 Accede Ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

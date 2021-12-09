@@ -69,17 +69,8 @@ namespace CountryData.Standard
         /// <summary>
         /// Gets the list of all countries in the worlld
         /// </summary>
-        /// <returns>List<String> countries</returns>
-        public List<String> GetCountries()
-        {
-            List<String> data = new List<string>();
-            var countries = _Countries.Select(c => c.CountryName).ToList();
-            foreach (var item in countries)
-            {
-                data.Add(item);
-            }
-            return countries;
-        }
+        /// <returns>IEnumerable<string> countries</returns>
+        public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
 
     }
 }
