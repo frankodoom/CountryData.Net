@@ -33,4 +33,18 @@ public class CountryHelperTests
         country.Should().NotBeNull();
         country.CountryShortCode.Should().Be(shortCode);
     }
+
+    [Theory]
+    [InlineData("GHA")]
+    [InlineData("G")]
+    [InlineData("USB")]
+    public void GetCountryByCode_WithInCorrectCode_ShouldReturnNull(string shortCode)
+    {
+        //Act
+        var country = _countryHelper.GetCountryByCode(shortCode);
+
+        //Assert
+        country.Should().BeNull();
+    }
+
 }
