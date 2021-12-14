@@ -48,9 +48,9 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="ShortCode"></param>
         /// <returns>Country</returns>
-        public Country GetCountryByCode(string ShortCode)
+        public Country GetCountryByCode(string shortCode)
         {
-            return _Countries.SingleOrDefault(c => c.CountryShortCode == ShortCode);
+            return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
 
