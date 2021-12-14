@@ -21,4 +21,16 @@ public class CountryHelperTests
         countryData.Should().NotBeNullOrEmpty();
     }
 
+    [Theory]
+    [InlineData("GH")]
+    [InlineData("US")]
+    public void GetCountryByCode_WithCorrectCode_ShouldReturnCountry(string shortCode) 
+    {
+        //Act
+        var country = _countryHelper.GetCountryByCode(shortCode);
+
+        //Assert
+        country.Should().NotBeNull();
+        country.CountryShortCode.Should().Be(shortCode);
+    }
 }
