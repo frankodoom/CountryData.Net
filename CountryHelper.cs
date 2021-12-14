@@ -44,13 +44,13 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        /// Returns Country Data by ShortCode
+        /// Returns a single Country Data by ShortCode
         /// </summary>
         /// <param name="ShortCode"></param>
-        /// <returns>IEnumerable<Country></returns>
-        public IEnumerable<Country> GetCountry(string ShortCode)
+        /// <returns>Country</returns>
+        public Country GetCountryByCode(string shortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == ShortCode);
+            return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
 
