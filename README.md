@@ -1,6 +1,12 @@
 # CountryData.Standard
 :earth_africa: A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
+### Nuget
+
+| | |
+|-|-|
+| downloads | ![](https://img.shields.io/nuget/dt/CountryData.Standard) |
+
 
 ### Install Library
 ```cSharp
