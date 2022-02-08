@@ -1,10 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
 namespace CountryData.Standard
 {
@@ -44,13 +42,13 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        /// Returns Country Data by ShortCode
+        /// Returns a single Country Data by ShortCode
         /// </summary>
         /// <param name="ShortCode"></param>
-        /// <returns>IEnumerable<Country></returns>
-        public IEnumerable<Country> GetCountry(string ShortCode)
+        /// <returns>Country</returns>
+        public Country GetCountryByCode(string shortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == ShortCode);
+            return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
 
@@ -69,17 +67,8 @@ namespace CountryData.Standard
         /// <summary>
         /// Gets the list of all countries in the worlld
         /// </summary>
-        /// <returns>List<String> countries</returns>
-        public List<String> GetCountries()
-        {
-            List<String> data = new List<string>();
-            var countries = _Countries.Select(c => c.CountryName).ToList();
-            foreach (var item in countries)
-            {
-                data.Add(item);
-            }
-            return countries;
-        }
+        /// <returns>IEnumerable<string> countries</returns>
+        public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
 
     }
 }
