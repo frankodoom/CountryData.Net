@@ -1,11 +1,12 @@
 # CountryData.Standard
 :earth_africa: A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
-### Nuget
 
 | | |
 |-|-|
-| downloads | ![](https://img.shields.io/nuget/dt/CountryData.Standard) |
+| nuget downloads | ![](https://img.shields.io/nuget/dt/CountryData.Standard) |
+| builds | [![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml) |
+
 
 
 ### Install Library
