@@ -4,7 +4,7 @@
 
 | | |
 |-|-|
-| nuget downloads | ![](https://img.shields.io/nuget/dt/CountryData.Standard) |
+| nuget downloads | [![](https://img.shields.io/nuget/dt/CountryData.Standard)](https://www.nuget.org/packages/CountryData.Standard) |
 | builds | [![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml) |
 
 
