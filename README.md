@@ -1,5 +1,6 @@
-# CountryData.Standard
-:earth_africa: A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
+# :earth_africa: CountryData.Standard
+[![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge).    
+A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
 
 | | |
@@ -73,7 +74,7 @@
 ```
 The MIT License
 
-Copyright (c) 2019 Accede Ltd.
+Copyright (c) 2021 Accede.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
