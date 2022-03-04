@@ -6,7 +6,7 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 | | |
 |-|-|
 | nuget downloads | [![](https://img.shields.io/nuget/dt/CountryData.Standard)](https://www.nuget.org/packages/CountryData.Standard) |
-| builds | [![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml) |
+| builds | [![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml) [![Join the chat at https://gitter.im/CountryDataDotnet/community](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
 
 
 
