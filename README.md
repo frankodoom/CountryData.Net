@@ -1,4 +1,4 @@
-# :earth_africa: CountryData.Standard
+# :earth_africa: CountryData.Net
 [![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
 A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
