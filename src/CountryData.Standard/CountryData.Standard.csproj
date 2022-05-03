@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/frankodoom/CountryData.Standard</RepositoryUrl>
     <PackageTags>Xamarin, Country-Api Country-Data Country-Region</PackageTags>
     <NeutralLanguage />
-    <Version>1.0.1</Version>
+    <Version>1.2.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
