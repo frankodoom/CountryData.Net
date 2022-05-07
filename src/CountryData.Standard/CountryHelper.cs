@@ -10,12 +10,12 @@ namespace CountryData.Standard
     {
         private readonly IEnumerable<Country> _Countries;
         private const string strFileName = "CountryData.Standard.data.json";
+
         public CountryHelper()
          {          
             var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
         }
-
 
         private string GetJsonData(string path)
         {
@@ -51,6 +51,15 @@ namespace CountryData.Standard
             return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
+        /// <summary>
+        /// Gets the flag of the country, in the form of an emoji.
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
+        public string GetCountryEmojiFlag(string shortCode)
+        {
+            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
+        }
 
          /// <summary>
         /// Selects Regions in a Particular Country
