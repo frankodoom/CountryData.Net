@@ -1,4 +1,4 @@
-using CountryData.Standard;
+﻿using CountryData.Standard;
 using FluentAssertions;
 using System.Collections.Generic;
 using Xunit;
@@ -32,6 +32,25 @@ public class CountryHelperTests
         //Assert
         country.Should().NotBeNull();
         country.CountryShortCode.Should().Be(shortCode);
+    }
+
+    [Theory]
+    [InlineData("GH")]
+    [InlineData("CM")]
+    [InlineData("US")]
+    public void GetCountryFlagByCode_WithCorrectCode_ShouldReturnEmojiFlag(string shortCode) 
+    {
+        //Act
+        var countryFlag = _countryHelper.GetCountryEmojiFlag(shortCode);
+
+        //Assert
+        countryFlag.Should().NotBeNull();
+        if (shortCode == "GH")
+            countryFlag.Should().Be("🇬🇭");
+        else if (shortCode == "CM")
+            countryFlag.Should().Be("🇨🇲");
+        else if (shortCode == "US")
+            countryFlag.Should().Be("🇺🇸");
     }
 
     [Theory]
