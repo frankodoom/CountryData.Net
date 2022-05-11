@@ -6,6 +6,7 @@ namespace CountryData.Standard
     {
         public string CountryName { get; set; }
         public string CountryShortCode { get; set; }
+        public string CountryFlag { get; set; }
         public List<Regions> Regions { get; set; }
     }
 }
