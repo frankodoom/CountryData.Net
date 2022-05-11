@@ -1,4 +1,6 @@
-﻿namespace CountryData.Sample.MAUI;
+﻿using CountryData.Sample.MAUI.ViewModels;
+
+namespace CountryData.Sample.MAUI;
 
 public static class MauiProgram
 {
@@ -12,6 +14,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+
+		builder.Services.AddTransient<MainPage>();
+		builder.Services.AddTransient<MainViewModel>();
 
 		return builder.Build();
 	}

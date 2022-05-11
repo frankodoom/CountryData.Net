@@ -13,11 +13,11 @@ namespace CountryData.Sample.MAUI.ViewModels
     public class MainViewModel : ReactiveObject
     {
         [Reactive]
-        ObservableCollection<Country> Countries { get; set; }
+        public ObservableCollection<Country> Countries { get; set; }
 
         public MainViewModel()
         {
-            Countries = new ObservableCollection<Country>();
+            Countries = new ObservableCollection<Country>(new CountryHelper().GetCountryData());
         }
     }
 }
