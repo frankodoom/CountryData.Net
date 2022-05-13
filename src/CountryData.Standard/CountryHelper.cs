@@ -15,6 +15,10 @@ namespace CountryData.Standard
          {          
             var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
+            foreach (var country in _Countries)
+            {
+                country.CountryFlag = GetCountryEmojiFlag(country.CountryShortCode);
+            }
         }
 
         private string GetJsonData(string path)
