@@ -44,6 +44,22 @@ A simple cross platform offline .NET library for getting Global Country Data wit
        foreach (var region in regions)
          Console.WriteLine(region.Name);
 ```
+### Using lambda for custom querries
+#### `GetCountryData()` returns an `IEnumerable<Country>` which can be querried with Lambda for a more flexible usage.
+```cSharp
+      //example1
+      var data = helper.GetCountryData();
+       //get list of countries by their Names
+      var countries = data.Select(c => c.CountryName).ToList();
+       foreach (var country in countries)
+         Console.WriteLine(country);
+       
+       
+       //example 2
+       data.Where(x => x.CountryShortCode == "US")
+                              .Select(r=>r.Regions).FirstOrDefault()
+                              .ToList();
+```
 
 ### Get Country Flag
 
@@ -301,24 +317,6 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 |ZM|🇿🇲|U+1F1FF U+1F1F2|Zambia|
 |ZW|🇿🇼|U+1F1FF U+1F1FC|Zimbabwe|
 
-
-
-### Using lambda for custom querries
-#### `GetCountryData()` returns an `IEnumerable<Country>` which can be querried with Lambda for a more flexible usage.
-```cSharp
-      //example1
-      var data = helper.GetCountryData();
-       //get list of countries by their Names
-      var countries = data.Select(c => c.CountryName).ToList();
-       foreach (var country in countries)
-         Console.WriteLine(country);
-       
-       
-       //example 2
-       data.Where(x => x.CountryShortCode == "US")
-                              .Select(r=>r.Regions).FirstOrDefault()
-                              .ToList();
-```
 
 
 ### Comming Soon
