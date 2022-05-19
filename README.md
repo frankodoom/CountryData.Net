@@ -13,12 +13,12 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 ### Install Library
 ##### Package Manager
 ```cSharp
-   PM> Install-Package CountryData.Standard -Version 1.2.0
+   PM> Install-Package CountryData.Standard -Version 1.3.0
 ```
 
 ##### .NET CLI
 ```cSharp
-   > dotnet add package CountryData.Standard --version 1.2.0
+   > dotnet add package CountryData.Standard --version 1.3.0
 ```
 
 
