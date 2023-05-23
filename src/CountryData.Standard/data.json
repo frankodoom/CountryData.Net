@@ -17835,11 +17835,7 @@
             {
                 "name": "Delaware",
                 "shortCode": "DE"
-            },
-            {
-                "name": "District of Columbia",
-                "shortCode": "DC"
-            },
+            },           
             {
                 "name": "Micronesia",
                 "shortCode": "FM"
@@ -17891,11 +17887,7 @@
             {
                 "name": "Maine",
                 "shortCode": "ME"
-            },
-            {
-                "name": "Marshall Islands",
-                "shortCode": "MH"
-            },
+            },            
             {
                 "name": "Maryland",
                 "shortCode": "MD"
