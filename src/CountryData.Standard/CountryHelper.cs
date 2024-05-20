@@ -83,5 +83,33 @@ namespace CountryData.Standard
         /// <returns>IEnumerable<string> countries</returns>
         public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
 
+
+
+
+        /// <summary>
+        /// Returns a single Country's Phone Code by ShortCode
+        /// </summary>
+        /// <param name="shortCode"></param>
+        /// <returns>string</returns>
+        public string GetPhoneCodeByCountryShortCode(string shortCode)
+        {
+            var country = _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            return country?.PhoneCode;
+        }
+
+
+
+        /// <summary>
+        /// Returns a single Country Data by PhoneCode
+        /// </summary>
+        /// <param name="phoneCode"></param>
+        /// <returns>Country</returns>
+        public Country GetCountryByPhoneCode(string phoneCode)
+        {
+            return _Countries.SingleOrDefault(c => c.PhoneCode == phoneCode);
+        }
+
+
+
     }
 }
