@@ -66,7 +66,7 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 ####  List of supported ISO-3166-1 country codes, their codepoint pairs and Emoji Flags.
 
 |ISO|Emoji|Unicode|Name|
-|--- |--- |--- |--- |
+|--- |--- |--- |--- | 
 |AD|🇦🇩|U+1F1E6 U+1F1E9|Andorra|
 |AE|🇦🇪|U+1F1E6 U+1F1EA|United Arab Emirates|
 |AF|🇦🇫|U+1F1E6 U+1F1EB|Afghanistan|
