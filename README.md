@@ -1,6 +1,7 @@
 
 ![logo](./Assets/logo.png)
 
+
 # :earth_africa: CountryData.Net
 [![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
 A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
@@ -12,6 +13,18 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 | builds | ![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master) |
 
 
+
+
+### Features
+
+- 📄 Load country data from a JSON file
+- 🌍 Get all country data
+- 🏳️‍🌈 Get a single country's data by its short code
+- 🚩 Get a country's emoji flag by its short code
+- 🗺️ Get regions of a country by its short code
+- 🌎 Get a list of all country names
+- ☎️ Get a country's phone code by its short code
+- 🌐 Get a country's data by its phone code
 
 ### Install Library
 ##### Package Manager
@@ -32,6 +45,8 @@ This production-grade package can be used with .NET Core Webapi, .NET console ap
 For detailed instructions on how to use the library, please refer to our [documentation](./doc/README.md).
 
 For a quick start, you can check out the  `Simple code` folder   provided in the repository.
+
+
 
 
 ### Initialize the Country data object
@@ -73,12 +88,11 @@ For a quick start, you can check out the  `Simple code` folder   provided in the
                               .ToList();
 ```
 
-### Get Country Flag
 
 ####  List of supported ISO-3166-1 country codes, their codepoint pairs and Emoji Flags.
 
-|ISO|Emoji|Unicode|Name|
-|--- |--- |--- |--- | 
+|ISO|Emoji|Unicode|Name|PhoneCode 
+|--- |--- |--- |--- |------|
 |AD|🇦🇩|U+1F1E6 U+1F1E9|Andorra|
 |AE|🇦🇪|U+1F1E6 U+1F1EA|United Arab Emirates|
 |AF|🇦🇫|U+1F1E6 U+1F1EB|Afghanistan|
@@ -329,6 +343,11 @@ For a quick start, you can check out the  `Simple code` folder   provided in the
 |ZM|🇿🇲|U+1F1FF U+1F1F2|Zambia|
 |ZW|🇿🇼|U+1F1FF U+1F1FC|Zimbabwe|
 
+
+
+## Contributing
+
+Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.Creating a `Code of Conduct` for your project involves defining the standards of behavior expected from contributors and maintainers. This document helps ensure that the community around your project is welcoming and collaborative. Here's a basic template you can use and customize for your project:
 
 
 ### Comming Soon
