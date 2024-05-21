@@ -93,3 +93,26 @@ Displays the emoji flag for any country.
 string GetCountryEmojiFlag(string shortCode);
 ```
 
+######  GetPhoneCodeByCountryShortCode(string shortCode) 
+
+Returns a single Country's Phone Code by ShortCode
+
+```csharp
+
+ string GetPhoneCodeByCountryShortCode(string shortCode)
+
+```
+
+
+######  GetCountryByPhoneCode(string phoneCode)
+
+ Returns a single Country Data by PhoneCode
+
+
+```csharp
+ Country GetCountryByPhoneCode(string phoneCode)
+
+```
+
+
+

@@ -1,3 +1,6 @@
+
+![logo](./Assets/logo.png)
+
 # :earth_africa: CountryData.Net
 [![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
 A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
@@ -20,6 +23,15 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 ```cSharp
    > dotnet add package CountryData.Standard --version 1.3.0
 ```
+
+
+### Usage
+
+This production-grade package can be used with .NET Core Webapi, .NET console applications, .NET Maui, Xamarin, Blazor, and mobile apps. It is compatible with both .NET Core and .NET Framework projects.
+
+For detailed instructions on how to use the library, please refer to our [documentation](./doc/README.md).
+
+For a quick start, you can check out the  `Simple code` folder   provided in the repository.
 
 
 ### Initialize the Country data object
@@ -322,7 +334,6 @@ A simple cross platform offline .NET library for getting Global Country Data wit
 ### Comming Soon
 * Support for more ISO Standard Country Data
 * Support for ISO 3166 Country A3 Codes
-* Support for Country Phone Code
 * Country ShortCode Enums
 
 

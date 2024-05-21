@@ -1,5 +1,4 @@
-﻿using System;
-using CountryData.Standard;
+﻿using CountryData.Standard;
 
 /// <summary>
 /// Main program class for demonstrating the use of the CountryData library.
@@ -21,6 +20,10 @@ class Program
         GetCountryData();
         GetRegionsByCountryCode("US");
         GetCountryFlag("US");
+        GetPhoneCodeByCountryShortCode("AF");
+        GetCountryByPhoneCode("93");
+
+
     }
 
     /// <summary>
@@ -84,4 +87,30 @@ class Program
         Console.WriteLine($"Flag for {shortCode}:");
         Console.WriteLine(flag);
     }
+
+
+
+    /// <summary>
+    /// Retrieves the phone code for a given country short code and prints it to the console.
+    /// </summary>
+    /// <param name="shortCode">The country short code.</param>
+    static void GetPhoneCodeByCountryShortCode(string shortCode)
+    {
+        var phoneCode = _helper.GetPhoneCodeByCountryShortCode(shortCode);
+        Console.WriteLine($"Phone code for {shortCode}:");
+        Console.WriteLine(phoneCode);
+    }
+
+    /// <summary>
+    /// Retrieves the country name for a given phone code and prints it to the console.
+    /// </summary>
+    /// <param name="phoneCode">The phone code.</param>
+    static void GetCountryByPhoneCode(string phoneCode)
+    {
+        var country = _helper.GetCountryByPhoneCode(phoneCode);
+        Console.WriteLine($"Country for phone code {phoneCode}:");
+        Console.WriteLine(country.CountryName);
+    }
+
+
 }
