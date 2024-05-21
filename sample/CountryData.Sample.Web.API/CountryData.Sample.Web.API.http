@@ -30,12 +30,12 @@ Accept: application/json
 
 ###
 # Retrieves the phone code for the country with the code 'US'
-GET {{CountryInforAPI_HostAddress}}/Country/AF/phoneCode
+GET {{CountryInforAPI_HostAddress}}/Country/GH/phoneCode
 Accept: application/json
 
 ###
 # Retrieves the country information for the country with the phone code '1'
-GET {{CountryInforAPI_HostAddress}}/Country/phoneCode/93
+GET {{CountryInforAPI_HostAddress}}/Country/phoneCode/+233
 Accept: application/json
 
 ###
