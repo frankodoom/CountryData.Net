@@ -107,9 +107,9 @@ class Program
     /// <param name="phoneCode">The phone code.</param>
     static void GetCountryByPhoneCode(string phoneCode)
     {
-        var country = _helper.GetCountryByPhoneCode(phoneCode);
+        var country = _helper.GetCountriesByPhoneCode(phoneCode);
         Console.WriteLine($"Country for phone code {phoneCode}:");
-        Console.WriteLine(country.CountryName);
+        Console.WriteLine(country.FirstOrDefault());
     }
 
 

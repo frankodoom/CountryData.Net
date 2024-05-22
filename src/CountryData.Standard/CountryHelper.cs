@@ -12,7 +12,7 @@ namespace CountryData.Standard
         private const string strFileName = "CountryData.Standard.data.json";
 
         public CountryHelper()
-         {          
+        {
             var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
             foreach (var country in _Countries)
@@ -22,11 +22,11 @@ namespace CountryData.Standard
         }
 
 
-          /// <summary>
-          ///  
-          /// </summary>
-          /// <param name="path"></param>
-          /// <returns></returns>
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
 
         private string GetJsonData(string path)
         {
@@ -35,7 +35,7 @@ namespace CountryData.Standard
             using (Stream stream = assembly.GetManifestResourceStream(path))
             {
                 var reader = new StreamReader(stream);
-               json=  reader.ReadToEnd();
+                json = reader.ReadToEnd();
 
             }
             return json;
@@ -72,7 +72,7 @@ namespace CountryData.Standard
             return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
         }
 
-         /// <summary>
+        /// <summary>
         /// Selects Regions in a Particular Country
         /// </summary>
         /// <param name="ShortCode"></param>
@@ -80,7 +80,7 @@ namespace CountryData.Standard
         public List<Regions> GetRegionByCountryCode(string ShortCode)
         {
             return _Countries.Where(x => x.CountryShortCode == ShortCode)
-                              .Select(r=>r.Regions).FirstOrDefault()
+                              .Select(r => r.Regions).FirstOrDefault()
                               .ToList();
         }
 
@@ -111,10 +111,12 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="phoneCode"></param>
         /// <returns>Country</returns>
-        public Country GetCountryByPhoneCode(string phoneCode)
+        public IEnumerable<Country> GetCountriesByPhoneCode(string phoneCode)
         {
-            return _Countries.SingleOrDefault(c => c.PhoneCode == phoneCode);
+           var countries =  _Countries.Where(c => c.PhoneCode == phoneCode);
+            return countries;
         }
+
 
 
 
