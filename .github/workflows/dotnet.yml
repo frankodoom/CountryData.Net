@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 8.0.x
+    - name: Install .NET Workloads
+      run: dotnet workload install maui-android --skip-manifest-update
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
