@@ -4,14 +4,14 @@
 
 # :earth_africa: CountryData.Net
 [![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
-A simple cross platform offline .NET library for getting Global Country Data without making any HTTP calls.
+A simple cross-platform offline .NET library for getting Global Country Data without making any HTTP calls.
 
 
 | | |
 |-|-|
 | nuget downloads | [![](https://img.shields.io/nuget/dt/CountryData.Standard)](https://www.nuget.org/packages/CountryData.Standard) |
 | builds | ![.NET](https://github.com/frankodoom/CountryData.Standard/actions/workflows/dotnet.yml/badge.svg?branch=master) |
-
+|code coverage|[![codecov](https://codecov.io/github/frankodoom/CountryData.Net/graph/badge.svg?token=E79CY267AR)](https://codecov.io/github/frankodoom/CountryData.Net)
 
 
 
