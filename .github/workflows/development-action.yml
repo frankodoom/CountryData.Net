@@ -17,8 +17,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 8.x.x
-    - name: Restore dependencies
+    - name: Install Workload dependencies
       run: dotnet workload restore
+    - name: Restore NuGet packages
+      run: dotnet restore
     - name: Build
       run: dotnet build
     - name: Test
