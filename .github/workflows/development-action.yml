@@ -17,8 +17,10 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 8.x.x
-    - name: Install Workload dependencies
+    - name: Restore Workload dependencies
       run: dotnet workload restore
+    - name: Install .NET Maui workload packs
+      run: dotnet workload install maui ios android
     - name: Restore NuGet packages
       run: dotnet restore
     - name: Build
