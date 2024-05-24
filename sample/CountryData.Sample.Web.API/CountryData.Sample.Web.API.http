@@ -1,0 +1,41 @@
+@CountryInforAPI_HostAddress = http://localhost:5016
+
+# Retrieves the default country information
+GET {{CountryInforAPI_HostAddress}}/Country
+Accept: application/json
+
+###
+
+# Retrieves a list of all countries
+GET {{CountryInforAPI_HostAddress}}/Country/countries
+Accept: application/json
+
+###
+
+# Retrieves the regions for the country with the code 'US'
+GET {{CountryInforAPI_HostAddress}}/Country/US/regions
+Accept: application/json
+
+###
+
+# Retrieves the country information for the country with the code 'GH'
+GET {{CountryInforAPI_HostAddress}}/Country/GH/countries
+Accept: application/json
+
+###
+
+# Retrieves the emoji flag for the country with the code 'US'
+GET {{CountryInforAPI_HostAddress}}/Country/US/flag
+Accept: application/json
+
+###
+# Retrieves the phone code for the country with the code 'US'
+GET {{CountryInforAPI_HostAddress}}/Country/GH/phoneCode
+Accept: application/json
+
+###
+# Retrieves the country information for the country with the phone code '1'
+GET {{CountryInforAPI_HostAddress}}/Country/phoneCode/+233
+Accept: application/json
+
+###

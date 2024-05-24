@@ -10,12 +10,23 @@ namespace CountryData.Standard
     {
         private readonly IEnumerable<Country> _Countries;
         private const string strFileName = "CountryData.Standard.data.json";
+
         public CountryHelper()
-         {          
+        {
             var json = GetJsonData(strFileName);
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
+            foreach (var country in _Countries)
+            {
+                country.CountryFlag = GetCountryEmojiFlag(country.CountryShortCode);
+            }
         }
 
+
+        /// <summary>
+        ///  
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
 
         private string GetJsonData(string path)
         {
@@ -24,7 +35,7 @@ namespace CountryData.Standard
             using (Stream stream = assembly.GetManifestResourceStream(path))
             {
                 var reader = new StreamReader(stream);
-               json=  reader.ReadToEnd();
+                json = reader.ReadToEnd();
 
             }
             return json;
@@ -51,8 +62,17 @@ namespace CountryData.Standard
             return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
+        /// <summary>
+        /// Gets the flag of the country, in the form of an emoji.
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
+        public string GetCountryEmojiFlag(string shortCode)
+        {
+            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
+        }
 
-         /// <summary>
+        /// <summary>
         /// Selects Regions in a Particular Country
         /// </summary>
         /// <param name="ShortCode"></param>
@@ -60,7 +80,7 @@ namespace CountryData.Standard
         public List<Regions> GetRegionByCountryCode(string ShortCode)
         {
             return _Countries.Where(x => x.CountryShortCode == ShortCode)
-                              .Select(r=>r.Regions).FirstOrDefault()
+                              .Select(r => r.Regions).FirstOrDefault()
                               .ToList();
         }
 
@@ -69,6 +89,36 @@ namespace CountryData.Standard
         /// </summary>
         /// <returns>IEnumerable<string> countries</returns>
         public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
+
+
+
+
+        /// <summary>
+        /// Returns a single Country's Phone Code by ShortCode
+        /// </summary>
+        /// <param name="shortCode"></param>
+        /// <returns>string</returns>
+        public string GetPhoneCodeByCountryShortCode(string shortCode)
+        {
+            var country = _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            return country?.PhoneCode;
+        }
+
+
+
+        /// <summary>
+        /// Returns a single Country Data by PhoneCode
+        /// </summary>
+        /// <param name="phoneCode"></param>
+        /// <returns>Country</returns>
+        public IEnumerable<Country> GetCountriesByPhoneCode(string phoneCode)
+        {
+           var countries =  _Countries.Where(c => c.PhoneCode == phoneCode);
+            return countries;
+        }
+
+
+
 
     }
 }
