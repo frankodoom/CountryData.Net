@@ -1,5 +1,5 @@
+<img src="./Assets/logo.png" alt="logo" height="200" width="200">
 
-![logo](./Assets/logo.png)
 
 
 # :earth_africa: CountryData.Net
