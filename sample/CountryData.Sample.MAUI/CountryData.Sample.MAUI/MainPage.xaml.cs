@@ -1,23 +1,22 @@
 ﻿using CountryData.Sample.MAUI.ViewModels;
 
-namespace CountryData.Sample.MAUI;
-
-public partial class MainPage : ContentPage
+namespace CountryData.Sample.MAUI
 {
-	int count = 0;
+    public partial class MainPage : ContentPage
+    {
+        int count = 0;
 
-	public MainPage(MainViewModel mainViewModel)
-	{
-		InitializeComponent();
-		BindingContext = mainViewModel;
-	}
+        public MainPage(MainViewModel mainViewModel)
+        {
+            InitializeComponent();
+            BindingContext = mainViewModel;
+        }
 
-	//private void OnCounterClicked(object sender, EventArgs e)
-	//{
-	//	count++;
-	//	CounterLabel.Text = $"Current count: {count}";
-
-	//	SemanticScreenReader.Announce(CounterLabel.Text);
-	//}
+        // Uncomment this method if you need it
+        //private void OnCounterClicked(object sender, EventArgs e)
+        //{
+        //    count++;
+        //    CounterLabel.Text = $"Current count: {count}";
+        //}
+    }
 }
-

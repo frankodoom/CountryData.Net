@@ -10,14 +10,19 @@
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="{x:Type country:Country}">
                 <ContentView>
-                    <Grid ColumnDefinitions="Auto,30,*"
+                    <Grid ColumnDefinitions="Auto,45,*"
                           Margin="5"
+                        
                           ColumnSpacing="5">
                         <Label Text="{Binding CountryFlag}"
+                                 Margin="20,0,0,0"
                                FontSize="Large"/>
 
                         <Label Grid.Column="1"
-                           Text="{Binding CountryShortCode}"/>
+                               
+                           Text="{Binding PhoneCode}"
+                                Margin="5,0,0,0"
+                            />
 
                         <Label Grid.Column="2"
                                HorizontalTextAlignment="Start"
