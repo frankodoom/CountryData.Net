@@ -21,7 +21,7 @@ class Program
         GetRegionsByCountryCode("US");
         GetCountryFlag("US");
         GetPhoneCodeByCountryShortCode("AF");
-        GetCountryByPhoneCode("93");
+        GetCountryByPhoneCode("+233");
 
 
     }
@@ -107,10 +107,14 @@ class Program
     /// <param name="phoneCode">The phone code.</param>
     static void GetCountryByPhoneCode(string phoneCode)
     {
-        var country = _helper.GetCountriesByPhoneCode(phoneCode);
-        Console.WriteLine($"Country for phone code {phoneCode}:");
-        Console.WriteLine(country.FirstOrDefault());
+        var countries = _helper.GetCountriesByPhoneCode(phoneCode);
+        Console.WriteLine($"Countries for phone code {phoneCode}:");
+        foreach (var country in countries)
+        {
+            Console.WriteLine(country.CountryName); 
+        }
     }
+
 
 
 }
