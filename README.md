@@ -12,7 +12,7 @@ A simple cross-platform offline .NET library for getting Global Country Data wit
 | nuget downloads | [![](https://img.shields.io/nuget/dt/CountryData.Standard)](https://www.nuget.org/packages/CountryData.Standard) |
 | builds | ![.NET](https://github.com/frankodoom/CountryData.Net/actions/workflows/development-action.yml/badge.svg?branch=development) |
 |code coverage|[![codecov](https://codecov.io/github/frankodoom/CountryData.Net/branch/development/graph/badge.svg?token=E79CY267AR)](https://codecov.io/github/frankodoom/CountryData.Net)
-
+|code quality |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=frankodoom_CountryData.Net&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=frankodoom_CountryData.Net)
 
 
 ### Features
