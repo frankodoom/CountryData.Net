@@ -23,6 +23,8 @@ namespace CountryData.Sample.Web.API.Controllers
         /// </summary>
         /// <returns>A list of all countries. If no countries are found, a NotFound result is returned.</returns>
         [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<Country>), 200)]
+        [ProducesResponseType(404)]
         public IActionResult GetCountries()
         {
             var countries = _helper.GetCountries();
@@ -41,6 +43,8 @@ namespace CountryData.Sample.Web.API.Controllers
         /// <param name="countryCode">The ISO country code.</param>
         /// <returns>The data for the specified country. If no data is found, a NotFound result is returned.</returns>
         [HttpGet("country")]
+        [ProducesResponseType(typeof(Country), 200)]
+        [ProducesResponseType(404)]
         public IActionResult GetCountryByCode([FromQuery] string countryCode)
         {
             var country = _helper.GetCountryByCode(countryCode);
@@ -52,8 +56,6 @@ namespace CountryData.Sample.Web.API.Controllers
         }
 
 
-
-
         /// <summary>
         /// Returns comprehensive data for all countries.
         /// </summary>
@@ -62,6 +64,8 @@ namespace CountryData.Sample.Web.API.Controllers
         /// If no data is found, a NotFound result is 
 
         [HttpGet("countries")]
+        [ProducesResponseType(typeof(IEnumerable<Country>), 200)]
+        [ProducesResponseType(404)]
         public IActionResult GetCountryData()
         {
             var country = _helper.GetCountryData();
@@ -70,8 +74,8 @@ namespace CountryData.Sample.Web.API.Controllers
                 return NotFound();
             }
             return Ok(country);
-
         }
+
 
 
         /// <summary>
@@ -80,6 +84,8 @@ namespace CountryData.Sample.Web.API.Controllers
         /// <param name="countryCode">The ISO country code.</param>
         /// <returns>A list of regions for the specified country. If no regions are found, a NotFound result is returned.</returns>
         [HttpGet("regions")]
+        [ProducesResponseType(typeof(IEnumerable<Regions>), 200)]
+        [ProducesResponseType(404)]
         public IActionResult GetRegionsByCountryCode([FromQuery] string countryCode)
         {
             var regions = _helper.GetRegionByCountryCode(countryCode);
@@ -91,21 +97,21 @@ namespace CountryData.Sample.Web.API.Controllers
         }
 
 
-
         /// <summary>
         /// Retrieves the emoji flag for a given country short code.
         /// </summary>
         /// <param name="shortCode">The short code of the country.</param>
         /// <returns>The emoji flag for the specified country. If no flag is found, a NotFound result is returned.</returns>
         [HttpGet("flag")]
-        public IActionResult GetCountryFlag([FromQuery] string shortCode)
+        [ProducesResponseType(typeof(string), 200)]
+        [ProducesResponseType(404)]
+        public IActionResult GetCountryFlag([FromQuery] string countryCode)
         {
-            var flag = _helper.GetCountryEmojiFlag(shortCode);
+            var flag = _helper.GetCountryEmojiFlag(countryCode);
             if (flag == null)
             {
                 return NotFound();
             }
-
             return Ok(flag);
         }
 
@@ -116,14 +122,15 @@ namespace CountryData.Sample.Web.API.Controllers
         /// <param name="shortCode">The short code of the country.</param>
         /// <returns>The phone code for the specified country. If no phone code is found, a NotFound result is returned.</returns>
         [HttpGet("phoneCodeByShortCode")]
-        public IActionResult GetPhoneCodeByCountryShortCode([FromQuery] string shortCode)
+        [ProducesResponseType(typeof(string), 200)]
+        [ProducesResponseType(404)]
+        public IActionResult GetPhoneCodeByCountryShortCode([FromQuery] string countryCode)
         {
-            var phoneCode = _helper.GetPhoneCodeByCountryShortCode(shortCode);
+            var phoneCode = _helper.GetPhoneCodeByCountryShortCode(countryCode);
             if (phoneCode == null)
             {
                 return NotFound();
             }
-
             return Ok(phoneCode);
         }
 
@@ -133,6 +140,8 @@ namespace CountryData.Sample.Web.API.Controllers
         /// <param name="phoneCode">The phone code of the country.</param>
         /// <returns>The data for the specified country. If no data is found, a NotFound result is returned.</returns>
         [HttpGet("countryByPhoneCode")]
+        [ProducesResponseType(typeof(Country), 200)]
+        [ProducesResponseType(404)]
         public IActionResult GetCountryByPhoneCode([FromQuery] string phoneCode)
         {
             var countryDataByPhoneCode = _helper.GetCountriesByPhoneCode(phoneCode);
@@ -140,7 +149,6 @@ namespace CountryData.Sample.Web.API.Controllers
             {
                 return NotFound();
             }
-
             return Ok(countryDataByPhoneCode);
         }
 
