@@ -1,6 +1,3 @@
-<img src="./Assets/logo.png" alt="logo" height="200" width="200">
-
-
 
 # :earth_africa: CountryData.Net
 [![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
@@ -12,29 +9,26 @@ A simple cross-platform offline .NET library for getting Global Country Data wit
 | nuget downloads | [![](https://img.shields.io/nuget/dt/CountryData.Standard)](https://www.nuget.org/packages/CountryData.Standard) |
 | builds | ![.NET](https://github.com/frankodoom/CountryData.Net/actions/workflows/development-action.yml/badge.svg?branch=development) |
 |code coverage|[![codecov](https://codecov.io/github/frankodoom/CountryData.Net/branch/development/graph/badge.svg?token=E79CY267AR)](https://codecov.io/github/frankodoom/CountryData.Net)
-
+|code quality |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=frankodoom_CountryData.Net&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=frankodoom_CountryData.Net)
 
 
 ### Features
 
-- 📄 Load country data from a JSON file
-- 🌍 Get all country data
-- 🏳️‍🌈 Get a single country's data by its short code
-- 🚩 Get a country's emoji flag by its short code
-- 🗺️ Get regions of a country by its short code
-- 🌎 Get a list of all country names
-- ☎️ Get a country's phone code by its short code
-- 🌐 Get a country's data by its phone code
+- 🌍 Get global country data [CountryName, CountryPhone, Region, CountryFlag, PhoneCode ]
+- 🏳️‍🌈 Get country data by ISO 3166 country code
+- 🚩 Get country flag by ISO 3166 country code
+- 🗺️ Get country region by ISO 3166 country code
+- ☎️ Get country phone code by ISO 3166 country code
 
 ### Install Library
 ##### Package Manager
 ```cSharp
-   PM> Install-Package CountryData.Standard -Version 1.3.0
+   PM> Install-Package CountryData.Standard -Version 1.4.0
 ```
 
 ##### .NET CLI
 ```cSharp
-   > dotnet add package CountryData.Standard --version 1.3.0
+   > dotnet add package CountryData.Standard --version 1.4.0
 ```
 
 
