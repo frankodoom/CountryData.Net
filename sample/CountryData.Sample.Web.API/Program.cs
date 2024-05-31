@@ -1,5 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
+static void NewMethod(WebApplication app)
+{
+    app.Run();
+}
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -26,4 +31,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+NewMethod(app);

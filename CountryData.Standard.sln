@@ -22,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryData.Standard", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{BBA69DE8-BE26-498E-9A62-131EB2494972}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryData.Sample.Console", "sample\CountryData.Sample.Console\CountryData.Sample.Console.csproj", "{397666FE-700B-446E-B4EC-13ACF0DDDEBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryData.Sample.ConsoleProject", "sample\CountryData.Sample.Console\CountryData.Sample.ConsoleProject.csproj", "{397666FE-700B-446E-B4EC-13ACF0DDDEBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{131F8946-7828-4AB1-A0B7-279CD142F7E1}"
 	ProjectSection(SolutionItems) = preProject
