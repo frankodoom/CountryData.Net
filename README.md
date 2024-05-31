@@ -36,7 +36,7 @@ A simple cross-platform offline .NET library for getting Global Country Data wit
 
 This production-grade package can be used with .NET Core Webapi, .NET console applications, .NET Maui, Xamarin, Blazor, and mobile apps. It is compatible with both .NET Core and .NET Framework projects.
 
-For detailed instructions on how to use the library, please refer to our [documentation](../CountryData.Net/docs/README.md).
+For detailed instructions on how to use the library, please refer to our [documentation](./docs/README.md ).
 
 For a quick start, you can check out the  `Simple code` folder   provided in the repository.
 

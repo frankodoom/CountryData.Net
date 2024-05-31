@@ -144,7 +144,7 @@ namespace CountryData.Sample.Web.API.Controllers
         [ProducesResponseType(404)]
         public IActionResult GetCountryByPhoneCode([FromQuery] string phoneCode)
         {
-            var countryDataByPhoneCode = _helper.GetCountriesByPhoneCode(phoneCode);
+            var countryDataByPhoneCode = _helper.GetCountryByPhoneCode(phoneCode);
             if (countryDataByPhoneCode == null)
             {
                 return NotFound();

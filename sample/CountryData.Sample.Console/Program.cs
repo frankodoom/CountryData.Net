@@ -105,8 +105,8 @@ namespace CountryData.Sample.CountryConsoleProject
         /// <param name="phoneCode">The phone code.</param>
         static void GetCountryByPhoneCode(string phoneCode)
         {
-            var countries = _helper.GetCountriesByPhoneCode(phoneCode);
-            Console.WriteLine($"Countries for phone code {phoneCode}:");
+            var countries = _helper.GetCountryByPhoneCode(phoneCode);
+            Console.WriteLine($"Country for phone code {phoneCode}:");
             foreach (var country in countries)
             {
                 Console.WriteLine(country.CountryName);

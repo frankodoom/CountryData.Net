@@ -111,10 +111,10 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="phoneCode"></param>
         /// <returns>Country</returns>
-        public IEnumerable<Country> GetCountriesByPhoneCode(string phoneCode)
+        public IEnumerable<Country> GetCountryByPhoneCode(string phoneCode)
         {
-           var countries =  _Countries.Where(c => c.PhoneCode == phoneCode);
-            return countries;
+           var Country =  _Countries.Where(c => c.PhoneCode == phoneCode);
+            return Country;
         }
 
 

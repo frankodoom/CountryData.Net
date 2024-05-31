@@ -121,7 +121,7 @@ public class CountryHelperTests
     public void GetCountriesByPhoneCode_WithCorrectPhoneCode_ShouldReturnCountries(string phoneCode, string expectedShortCode)
     {
         //Act
-        var countries = _countryHelper.GetCountriesByPhoneCode(phoneCode);
+        var countries = _countryHelper.GetCountryByPhoneCode(phoneCode);
 
         //Assert
         countries.Should().NotBeNullOrEmpty();
