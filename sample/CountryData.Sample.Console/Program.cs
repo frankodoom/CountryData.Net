@@ -1,4 +1,5 @@
-﻿using CountryData.Standard;
+﻿
+using CountryData.Standard;
 
 /// <summary>
 /// Main program class for demonstrating the use of the CountryData library.
@@ -13,7 +14,7 @@ class Program
     /// <summary>
     /// Entry point of the program.
     /// </summary>
-    static void Main()
+    public static void Main()
     {
         GetCountries();
         GetCountryByCode("US");
@@ -111,7 +112,7 @@ class Program
         Console.WriteLine($"Countries for phone code {phoneCode}:");
         foreach (var country in countries)
         {
-            Console.WriteLine(country.CountryName); 
+            Console.WriteLine(country.CountryName);
         }
     }
 
