@@ -5,7 +5,7 @@ We provide several examples to help you understand how to effectively use the Co
 
 ## Console Application
 
-For a comprehensive example of how to use CountryData.Standard in a console application, please refer to our [Console Application Sample Code](./CountryData.Sample.Console/Program.cs). This sample demonstrates how to retrieve and display various country data.
+For a comprehensive example of how to use CountryData.Standard in a console application, please refer to our [Console Application Sample Code](./CountryData.Sample.Console/). This sample demonstrates how to retrieve and display various country data.
 
 ## Web API
 

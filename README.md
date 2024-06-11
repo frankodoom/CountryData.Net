@@ -34,12 +34,11 @@ A simple cross-platform offline .NET library for getting Global Country Data wit
 
 ### Usage
 
-This production-grade package can be used with .NET Core Webapi, .NET console applications, .NET Maui, Xamarin, Blazor, and mobile apps. It is compatible with both .NET Core and .NET Framework projects.
+CountryData.Standard is a robust, production-grade package designed for a wide range of .NET applications. Whether you're developing a .NET Core Web API, a console application, a .NET MAUI or Xamarin app, a Blazor project, or a mobile app, this library is built to seamlessly integrate with your project. 
 
-For detailed instructions on how to use the library, please refer to our [documentation](./docs/README.md ).
+To get started quickly, check out our [Sample Code](./sample/README.md). This section provides practical examples of how to use the library in various types of projects.
 
-For a quick start, you can check out the  `Simple code` folder   provided in the repository.
-
+For more detailed instructions and comprehensive information about the library, please refer to our [Documentation](./docs/README.md). This resource offers in-depth guidance on how to effectively use the CountryData.Standard library in your projects.
 
 
 
@@ -94,14 +93,20 @@ foreach (var country in countriesWithPhoneCode)
 
 ```
 
-## ISO-3166-1 country codes
+
+### ISO-3166-1 country codes
 
 For a list of supported ISO-3166-1 country codes, PhoneCode, Flags, ISO and , Unicode  please refer to the [Country Details](./CountryData/CountryDetails.md) file.
 
 
-## Contributing
 
-Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.Creating a `Code of Conduct` for your project involves defining the standards of behavior expected from contributors and maintainers. This document helps ensure that the community around your project is welcoming and collaborative. Here's a basic template you can use and customize for your project:
+### Contributing
+
+Contributions are welcome! We value your input and want to make contributing to this project as easy and transparent as possible. Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+### Code of Conduct
+
+We are committed to fostering a welcoming and respectful community for everyone. Our `Code of Conduct` outlines the standards of behavior expected from contributors and maintainers. This document helps ensure that the community around our project is inclusive and collaborative. Please refer to our [code of conduct](CODE_OF_CONDUCT)   for more information.
 
 
 ### Comming Soon
@@ -111,6 +116,6 @@ Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) 
 
 
 
-## License
+### License
 
 This project is licensed under the terms of the [LICENSE](LICENSE).
