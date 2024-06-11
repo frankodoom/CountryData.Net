@@ -82,15 +82,11 @@ For more detailed instructions and comprehensive information about the library, 
 ```
 
 
-This example demonstrates how to retrieve countries with a specific phone code using the `GetCountriesByPhoneCode` method. In this case, we're fetching all countries with the phone code "+1".
+This example demonstrates how to retrieve a country with a specific phone code using the `GetCountryByPhoneCode` method. In this case, we're fetching the country with the phone code "+233".
 
 ```csharp
-var countriesWithPhoneCode = helper.GetCountriesByPhoneCode("+233");
-foreach (var country in countriesWithPhoneCode)
-{
-    Console.WriteLine(country.NameCountryName);
-}
-
+var CountryName = helper.GetCountryByPhoneCode("+233");
+Console.WriteLine(CountryName);
 ```
 
 
