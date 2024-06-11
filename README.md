@@ -106,7 +106,7 @@ Contributions are welcome! We value your input and want to make contributing to 
 
 ### Code of Conduct
 
-We are committed to fostering a welcoming and respectful community for everyone. Our `Code of Conduct` outlines the standards of behavior expected from contributors and maintainers. This document helps ensure that the community around our project is inclusive and collaborative. Please refer to our [code of conduct](CODE_OF_CONDUCT)   for more information.
+We are committed to fostering a welcoming and respectful community for everyone. Our `Code of Conduct` outlines the standards of behavior expected from contributors and maintainers. This document helps ensure that the community around our project is inclusive and collaborative. Please refer to our [code of conduct](CODE_OF_CONDUCT.md)   for more information.
 
 
 ### Comming Soon

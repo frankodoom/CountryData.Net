@@ -24,7 +24,7 @@ For feature requests and enhancements, open an issue first to discuss the change
 
 Pull requests are the best way to propose changes to the project. They allow us to review your modifications before merging them into the main branch. Please follow these steps to create a pull request:
 
-1. Fork the Project Repository, *Note* Fork from `develop` branch.
+1. Fork the Project Repository, *Note* Fork from `development` branch.
 2. Create a new branch for your changes.
 3. Commit your changes to the new branch.
 4. Push your branch to GitHub.
