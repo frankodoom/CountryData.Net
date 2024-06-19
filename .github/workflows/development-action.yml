@@ -1,0 +1,35 @@
+name: DEV-WORKFLOW-ACTION
+
+on:
+  push:
+    branches: [ development ]
+  pull_request:
+    branches: [ development ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 8.x.x
+    - name: Restore Workload dependencies
+      run: dotnet workload restore
+   # - name: Install .NET Maui workload packs
+   #   run: dotnet workload install maui android
+    - name: Restore NuGet packages
+      run: dotnet restore
+    - name: Build
+      run: dotnet build
+    - name: Test
+      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=TestResults/ --collect:"XPlat Code Coverage"
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v4.0.1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: ./TestResults/coverage.cobertura.xml
+        flags: unittests
+        name: codecov-umbrella
+       #fail_ci_if_error: true
