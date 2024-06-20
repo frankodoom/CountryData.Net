@@ -106,7 +106,7 @@ We are committed to fostering a welcoming and respectful community for everyone.
 
 
 ### Comming Soon
-* Support for more ISO Standard Country Data
+* Support for ISO 4217 Currency Codes
 * Support for ISO 3166 Country A3 Codes
 * Country ShortCode Enums 
 
