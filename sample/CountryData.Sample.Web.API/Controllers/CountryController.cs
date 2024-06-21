@@ -107,7 +107,7 @@ namespace CountryData.Sample.Web.API.Controllers
         [ProducesResponseType(404)]
         public IActionResult GetCountryFlag([FromQuery] string countryCode)
         {
-            var flag = _helper.GetCountryEmojiFlag(countryCode);
+            var flag = _helper.GetCountryFlag(countryCode);
             if (flag == null)
             {
                 return NotFound();

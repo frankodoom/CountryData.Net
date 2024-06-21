@@ -83,7 +83,7 @@ namespace CountryData.Sample.CountryConsoleProject
         /// <param name="shortCode">The country short code.</param>
         static void GetCountryFlag(string shortCode)
         {
-            var flag = _helper.GetCountryEmojiFlag(shortCode);
+            var flag = _helper.GetCountryFlag(shortCode);
             Console.WriteLine($"Flag for {shortCode}:");
             Console.WriteLine(flag);
         }

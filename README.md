@@ -81,13 +81,31 @@ For more detailed instructions and comprehensive information about the library, 
                               .ToList();
 ```
 
-
+### Get Country Data by Country Code
 This example demonstrates how to retrieve a country with a specific phone code using the `GetCountryByPhoneCode` method. In this case, we're fetching the country with the phone code "+233".
 
 ```csharp
 var CountryName = helper.GetCountryByPhoneCode("+233");
 Console.WriteLine(CountryName);
 ```
+
+
+
+
+### Methods and Descriptions
+
+The CountryData.Standard library provides a set of methods that allow you to retrieve country data, flags, regions, and phone codes. The following table lists the available methods and their descriptions.
+
+| Method | Description |
+|--------|-------------|
+| [`GetCountryData()`](./docs/README.md) | Returns all country data including region, short code, and country name. |
+| [`GetCountryByCode(string shortCode)`](./docs/README.md) | Returns a single country's data by its short code. |
+| [`GetCountryFlag(string shortCode)`](./docs/README.md) | Gets the flag of the country, represented as an emoji, by the country's short code. |
+| [`GetRegionByCountryCode(string ShortCode)`](./docs/README.md) | Selects and returns a list of regions for a particular country identified by its short code. |
+| [`GetCountries()`](./docs/README.md) | Gets the list of all country names. |
+| [`GetPhoneCodeByCountryShortCode(string shortCode)`](./docs/README.md) | Returns a single country's phone code by its short code. |
+| [`GetCountryByPhoneCode(string phoneCode)`](./docs/README.md) | Returns country data for the country associated with the specified phone code. |
+
 
 
 ### ISO-3166-1 country codes
