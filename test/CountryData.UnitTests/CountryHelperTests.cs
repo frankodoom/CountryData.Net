@@ -55,7 +55,7 @@ public class CountryHelperTests
     public void GetCountryFlagByCode_WithCorrectCode_ShouldReturnEmojiFlag(string shortCode)
     {
         //Act
-        var countryFlag = _countryHelper.GetCountryFlag(shortCode);
+        var countryFlag = _countryHelper.GetCountryEmojiFlag(shortCode);
 
         //Assert
         countryFlag.Should().NotBeNull();

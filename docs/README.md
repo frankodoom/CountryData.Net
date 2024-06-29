@@ -116,9 +116,9 @@ This method is particularly useful for applications that need to display or anal
 
 
 
-### GetCountryFlag (string shortCode)
+### GetCountryEmojiFlag (string shortCode)
 
-The `GetCountryFlag ()` method is designed to fetch the  flag of a specific country using its ISO 3166-1 alpha-2 code. This method provides a simple and effective way to visually represent countries in your application.
+The `GetCountryEmojiFlag ()` method is designed to fetch the  flag of a specific country using its ISO 3166-1 alpha-2 code. This method provides a simple and effective way to visually represent countries in your application.
 
 Here's the method signature in C#:
 

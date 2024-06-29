@@ -17,7 +17,7 @@ namespace CountryData.Standard
             _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
             foreach (var country in _Countries)
             {
-                country.CountryFlag = GetCountryFlag(country.CountryShortCode);
+                country.CountryFlag = GetCountryEmojiFlag(country.CountryShortCode);
             }
         }
 
@@ -67,7 +67,7 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="country"></param>
         /// <returns></returns>
-        public string GetCountryFlag (string shortCode)
+        public string GetCountryEmojiFlag(string shortCode)
         {
             return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
         }

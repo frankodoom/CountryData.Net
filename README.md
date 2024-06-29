@@ -100,7 +100,7 @@ The CountryData.Standard library provides a set of methods that allow you to ret
 |--------|-------------|
 | [`GetCountryData()`](./docs/README.md) | Returns all country data including region, short code, and country name. |
 | [`GetCountryByCode(string shortCode)`](./docs/README.md) | Returns a single country's data by its short code. |
-| [`GetCountryFlag(string shortCode)`](./docs/README.md) | Gets the flag of the country, represented as an emoji, by the country's short code. |
+| [`GetCountryEmojiFlag(string shortCode)`](./docs/README.md) | Gets the flag of the country, represented as an emoji, by the country's short code. |
 | [`GetRegionByCountryCode(string ShortCode)`](./docs/README.md) | Selects and returns a list of regions for a particular country identified by its short code. |
 | [`GetCountries()`](./docs/README.md) | Gets the list of all country names. |
 | [`GetPhoneCodeByCountryShortCode(string shortCode)`](./docs/README.md) | Returns a single country's phone code by its short code. |
