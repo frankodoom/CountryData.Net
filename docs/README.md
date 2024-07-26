@@ -159,4 +159,30 @@ Country GetCountryByPhoneCode(string phoneCode);
 This method is particularly useful when you have a phone code and need to retrieve the corresponding country's information. Simply pass the phone code as a string argument, and the method will return a `Country` object filled with relevant data.
 
 
+### GetCurrencyCodesByCountryCode(string shortCode)
+
+The `GetCurrencyCodesByCountryCode()` method is designed to fetch the currency codes used in a specific country using its ISO 3166-1 alpha-2 code. This method returns a `List<string>`, with each string representing a distinct currency code used in the specified country.
+
+Here's the method signature in C#:
+
+```csharp
+
+List<string> GetCurrencyCodesByCountryCode(string shortCode);
+```
+
+This method is particularly useful for applications that need to display or analyze currency data within a specific country. Simply pass the country
+
+### GetCountryByCurrencyCode(string currencyCode)
+
+The `GetCountryByCurrencyCode()` method is designed to fetch detailed data for a specific country using its currency code. This method returns a `Country` object, providing a wealth of information about the country, including its name, region, flag, and ISO code.
+
+Here's the method signature in C#:
+
+```csharp
+
+Country GetCountryByCurrencyCode(string currencyCode);
+```
+
+This method is particularly useful when you have a currency code and need to retrieve the corresponding country's information. Simply pass the currency code as a string argument, and the method will return a `Country` object filled with relevant data.
+
 

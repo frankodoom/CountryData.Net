@@ -1,7 +1,7 @@
 
-# :earth_africa: CountryData.Net
-[![Gitter](https://badges.gitter.im/CountryDataDotnet/community.svg)](https://gitter.im/CountryDataDotnet/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)   
-A simple cross-platform offline .NET library for getting Global Country Data without making any HTTP calls.
+<!-- logo -->
+
+![Logo](./Assets/CountryData.Net.Logo.png)
 
 
 | | |
@@ -40,6 +40,24 @@ To get started quickly, check out our [Sample Code](./sample/README.md). This se
 
 For more detailed instructions and comprehensive information about the library, please refer to our [Documentation](./docs/README.md). This resource offers in-depth guidance on how to effectively use the CountryData.Standard library in your projects.
 
+
+
+
+### Methods and Descriptions
+
+The CountryData.Standard library provides a set of methods that allow you to retrieve country data, flags, regions, and phone codes. The following table lists the available methods and their descriptions.
+
+| Method | Description |
+|--------|-------------|
+| [`GetCountryData()`](./docs/README.md) | Returns all country data including region, short code, and country name. |
+| [`GetCountryByCode(string shortCode)`](./docs/README.md) | Returns a single country's data by its short code. |
+| [`GetCountryEmojiFlag(string shortCode)`](./docs/README.md) | Gets the flag of the country, represented as an emoji, by the country's short code. |
+| [`GetRegionByCountryCode(string shortCode)`](./docs/README.md) | Selects and returns a list of regions for a particular country identified by its short code. |
+| [`GetCountries()`](./docs/README.md) | Gets the list of all country names. |
+| [`GetPhoneCodeByCountryShortCode(string shortCode)`](./docs/README.md) | Returns a single country's phone code by its short code. |
+| [`GetCountryByPhoneCode(string phoneCode)`](./docs/README.md) | Returns country data for the country associated with the specified phone code. |
+| [`GetCurrencyCodesByCountryCode(string shortCode)`](./docs/README.md) | Returns a list of currency codes for a specific country identified by its short code. |
+| [`GetCountryByCurrencyCode(string currencyCode)`](./docs/README.md) | Returns a list of countries that use the specified currency code. |
 
 
 ### Initialize the Country data object
@@ -90,24 +108,6 @@ Console.WriteLine(CountryName);
 ```
 
 
-
-
-### Methods and Descriptions
-
-The CountryData.Standard library provides a set of methods that allow you to retrieve country data, flags, regions, and phone codes. The following table lists the available methods and their descriptions.
-
-| Method | Description |
-|--------|-------------|
-| [`GetCountryData()`](./docs/README.md) | Returns all country data including region, short code, and country name. |
-| [`GetCountryByCode(string shortCode)`](./docs/README.md) | Returns a single country's data by its short code. |
-| [`GetCountryEmojiFlag(string shortCode)`](./docs/README.md) | Gets the flag of the country, represented as an emoji, by the country's short code. |
-| [`GetRegionByCountryCode(string ShortCode)`](./docs/README.md) | Selects and returns a list of regions for a particular country identified by its short code. |
-| [`GetCountries()`](./docs/README.md) | Gets the list of all country names. |
-| [`GetPhoneCodeByCountryShortCode(string shortCode)`](./docs/README.md) | Returns a single country's phone code by its short code. |
-| [`GetCountryByPhoneCode(string phoneCode)`](./docs/README.md) | Returns country data for the country associated with the specified phone code. |
-
-
-
 ### ISO-3166-1 country codes
 
 For a list of supported ISO-3166-1 country codes, PhoneCode, Flags, ISO and , Unicode  please refer to the [Country Details](./CountryData/CountryDetails.md) file.
@@ -127,7 +127,6 @@ We are committed to fostering a welcoming and respectful community for everyone.
 * Support for more ISO Standard Country Data
 * Support for ISO 3166 Country A3 Codes
 * Country ShortCode Enums 
-
 
 
 ### License

@@ -15,9 +15,6 @@ namespace CountryData.Sample.Web.API.Controllers
             _helper = helper;
         }
 
-
-
-
         /// <summary>
         /// Retrieves a list of all countries.
         /// </summary>
@@ -34,7 +31,6 @@ namespace CountryData.Sample.Web.API.Controllers
             }
             return Ok(countries);
         }
-
 
 
         /// <summary>
@@ -105,7 +101,7 @@ namespace CountryData.Sample.Web.API.Controllers
         [HttpGet("flag")]
         [ProducesResponseType(typeof(string), 200)]
         [ProducesResponseType(404)]
-        public IActionResult  GetCountryEmojiFlag([FromQuery] string countryCode)
+        public IActionResult GetCountryEmojiFlag([FromQuery] string countryCode)
         {
             var flag = _helper.GetCountryEmojiFlag(countryCode);
             if (flag == null)
@@ -153,7 +149,42 @@ namespace CountryData.Sample.Web.API.Controllers
         }
 
 
+        /// <summary>
+        /// Retrieves the currency codes for a given country code.
+        /// </summary>
+        /// <param name="countryCode">The ISO country code.</param>
+        /// <returns>A list of currency codes for the specified country. If no currency codes are found, a NotFound result is returned.</returns>
+        [HttpGet("currencyCodesByCountryCode")]
+        [ProducesResponseType(typeof(IEnumerable<Currency>), 200)]
+        [ProducesResponseType(404)]
+        public IActionResult GetCurrencyCodesByCountryCode([FromQuery] string countryCode)
+        {
+            var currencyCodes = _helper.GetCurrencyCodesByCountryCode(countryCode);
+            if (currencyCodes == null)
+            {
+                return NotFound();
+            }
+            return Ok(currencyCodes);
+        }
 
+
+        /// <summary>
+        /// Retrieves the countries that use a specific currency code.
+        /// </summary>
+        /// <param name="currencyCode">The currency code to search for.</param>
+        /// <returns>A list of countries that use the specified currency code. If no countries are found, a NotFound result is returned.</returns>
+        [HttpGet("countryByCurrencyCode")]
+        [ProducesResponseType(typeof(IEnumerable<Country>), 200)]
+        [ProducesResponseType(404)]
+        public IActionResult GetCountryByCurrencyCode([FromQuery] string currencyCode)
+        {
+            var countryByCurrencyCode = _helper.GetCountryByCurrencyCode(currencyCode);
+            if (countryByCurrencyCode == null)
+            {
+                return NotFound();
+            }
+            return Ok(countryByCurrencyCode);
+        }
 
     }
 }
