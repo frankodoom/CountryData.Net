@@ -57,7 +57,9 @@ The CountryData.Standard library provides a set of methods that allow you to ret
 | [`GetPhoneCodeByCountryShortCode(string shortCode)`](./docs/README.md) | Returns a single country's phone code by its short code. |
 | [`GetCountryByPhoneCode(string phoneCode)`](./docs/README.md) | Returns country data for the country associated with the specified phone code. |
 | [`GetCurrencyCodesByCountryCode(string shortCode)`](./docs/README.md) | Returns a list of currency codes for a specific country identified by its short code. |
-| [`GetCountryByCurrencyCode(string currencyCode)`](./docs/README.md) | Returns a list of countries that use the specified currency code. |
+| [`GetCountryByCurrencyCode(string currencyCode)`](./docs/README.md) | Returns a list of countries that use the specified currency code. |  
+| [`GetCountryCode(string countryName)`](./docs/README.md) | Returns the country code for a specific country name. |
+
 
 
 ### Initialize the Country data object

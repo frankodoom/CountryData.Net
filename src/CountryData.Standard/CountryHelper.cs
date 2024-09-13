@@ -24,7 +24,7 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        ///  
+        ///  Read 
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
@@ -47,7 +47,7 @@ namespace CountryData.Standard
         /// that can be querried by Lambda Expressions
         /// </summary>
         /// <returns>IEnumerable<Country></returns>
-        public IEnumerable<Country> GetCountryData()
+        public virtual IEnumerable<Country> GetCountryData()
         {
             return _Countries;
         }

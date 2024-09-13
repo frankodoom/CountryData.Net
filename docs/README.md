@@ -186,3 +186,16 @@ Country GetCountryByCurrencyCode(string currencyCode);
 This method is particularly useful when you have a currency code and need to retrieve the corresponding country's information. Simply pass the currency code as a string argument, and the method will return a `Country` object filled with relevant data.
 
 
+###  GetCountryCode(string countryName)
+
+The `GetCountryCode()` method is designed to fetch the ISO 3166-1 alpha-2 code for a specific country using its name. This method returns a string containing the country's ISO code, making it easy to identify countries based on their names.
+
+Here's the method signature in C#:
+
+```csharp
+
+string GetCountryCode(string countryName);
+```
+
+
+

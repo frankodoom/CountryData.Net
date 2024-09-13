@@ -186,5 +186,32 @@ namespace CountryData.Sample.Web.API.Controllers
             return Ok(countryByCurrencyCode);
         }
 
+
+
+        /// <summary>
+        /// Retrieves the country code for a given country name.
+        /// </summary>
+        /// <param name="countryName">The name of the country.</param>
+        /// <returns>The country code if found; otherwise, a NotFound result.</returns>
+        [HttpGet("countryCodeByName")]
+        [ProducesResponseType(typeof(string), 200)]
+        [ProducesResponseType(404)]
+        public IActionResult GetCountryCodeByName([FromQuery] string countryName)
+
+
+        {
+            using var manager = new CountryExtensions();
+            var countryCode = manager.GetCountryCode(countryName);
+            if (countryCode == null)
+            {
+                return NotFound();
+            }
+            return Ok(countryCode);
+        }
+
+
     }
+
+
+
 }

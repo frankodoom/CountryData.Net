@@ -26,6 +26,7 @@ namespace CountryData.Sample.CountryConsoleProject
             GetCountryByPhoneCode("+233");
             GetCurrencyCodesByCountryCode("US");
             GetCountryByCurrencyCode("GHS");
+            GetCountryCode("Ghana");
         }
 
         /// <summary>
@@ -145,5 +146,22 @@ namespace CountryData.Sample.CountryConsoleProject
                 Console.WriteLine(country.CountryName);
             }
         }
+
+
+
+        /// <summary>
+        /// Retrieves the country code for a given country name and prints it to the console.
+        /// </summary>
+        /// <param name="countryName">The name of the country.</param>
+        private static void GetCountryCode(string countryName)
+        {
+            using var manager = new CountryExtensions();
+            var result = manager.GetCountryCode(countryName);
+            Console.WriteLine($"Country code for {countryName} is {result} ");
+        }
+
+
+
+
     }
 }
