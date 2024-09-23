@@ -104,6 +104,7 @@ namespace CountryData.Sample.Web.API.Controllers
         public IActionResult GetCountryEmojiFlag([FromQuery] string countryCode)
         {
             var flag = _helper.GetCountryEmojiFlag(countryCode);
+            Console.WriteLine(flag);
             if (flag == null)
             {
                 return NotFound();

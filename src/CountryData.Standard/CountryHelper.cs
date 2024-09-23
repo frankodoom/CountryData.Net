@@ -70,8 +70,9 @@ namespace CountryData.Standard
         /// <returns></returns>
         public string GetCountryEmojiFlag(string shortCode)
         {
-            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
+            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1E6 - 'A')));
         }
+
 
         /// <summary>
         /// Selects Regions in a Particular Country

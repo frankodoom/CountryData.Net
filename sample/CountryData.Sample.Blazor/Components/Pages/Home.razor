@@ -1,0 +1,45 @@
+﻿@page "/"
+@using CountryData.Sample.Blazor.Components.Services
+@using CountryData.Standard
+
+<PageTitle>Home</PageTitle>
+
+@inject CountryService CountryService
+
+<h3>Country Data</h3>
+
+@if (countries == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country Short Code</th>
+                <th>Phone Code</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var country in countries)
+            {
+                <tr>
+                    <td>@country.CountryName</td>
+                    <td>@country.CountryShortCode</td>
+                    <td>@country.PhoneCode</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Country>? countries;
+
+    protected override async Task OnInitializedAsync()
+    {
+        countries = await CountryService.GetCountries();
+    }
+}
