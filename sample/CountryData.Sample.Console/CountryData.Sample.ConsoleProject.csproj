@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\CountryData.Standard\CountryData.Standard.csproj" />
-    <ProjectReference Include="..\CountryData.Sample.MAUI\CountryData.Sample.MAUI\CountryData.Sample.MAUI.csproj" />
   </ItemGroup>
 
 </Project>

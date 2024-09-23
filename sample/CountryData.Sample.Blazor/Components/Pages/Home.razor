@@ -36,8 +36,14 @@ else
 }
 
 @code {
+    /// <summary>
+    /// A collection of countries to be displayed on the page.
+    /// </summary>
     private IEnumerable<Country>? countries;
 
+    /// <summary>
+    /// Initializes the component and loads the country data.
+    /// </summary>
     protected override async Task OnInitializedAsync()
     {
         countries = await CountryService.GetCountries();
