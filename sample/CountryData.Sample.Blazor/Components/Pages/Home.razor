@@ -18,6 +18,7 @@ else
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Flag</th>
                 <th>Country Short Code</th>
                 <th>Phone Code</th>
             </tr>
@@ -27,6 +28,7 @@ else
             {
                 <tr>
                     <td>@country.CountryName</td>
+                    <td>@GrtCountryFlag(country.CountryShortCode)</td>
                     <td>@country.CountryShortCode</td>
                     <td>@country.PhoneCode</td>
                 </tr>
@@ -48,4 +50,14 @@ else
     {
         countries = await CountryService.GetCountries();
     }
+
+
+
+    // getting counry flag 
+
+   public string GrtCountryFlag(string countryShortCode)
+    {
+        return CountryService.GetCountryFlag(countryShortCode);
+    }
+
 }

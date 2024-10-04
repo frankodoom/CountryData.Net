@@ -25,16 +25,17 @@ namespace CountryData.Sample.Blazor.Components.Services
         /// <param name="countryCode">The country code.</param>
         /// <returns>The country flag as a string.</returns>
 
-        public Task<string> GetCountryFlag(string countryCode)
+        public string GetCountryFlag(string countryCode)
         {
             var countryFlag = _helper.GetCountryEmojiFlag(countryCode);
 
             if (string.IsNullOrEmpty(countryFlag))
             {
-                return Task.FromResult("Country Flag not found");
+
+                return "No flag found";
             }
 
-            return Task.FromResult(countryFlag);
+            return countryFlag;
         }
 
 
