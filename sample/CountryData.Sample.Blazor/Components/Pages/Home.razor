@@ -14,27 +14,15 @@
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Flag</th>
-                <th>Country Short Code</th>
-                <th>Phone Code</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var country in countries)
-            {
-                <tr>
-                    <td>@country.CountryName</td>
-                    <td>@GrtCountryFlag(country.CountryShortCode)</td>
-                    <td>@country.CountryShortCode</td>
-                    <td>@country.PhoneCode</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <label for="countryDropdown">Select a country:</label>
+    <select id="countryDropdown" class="form-select">
+        @foreach (var country in countries)
+        {
+            <option value="@country.CountryShortCode">
+                @GrtCountryFlag(country.CountryShortCode) @country.CountryName (@country.PhoneCode)
+            </option>
+        }
+    </select>
 }
 
 @code {
@@ -51,13 +39,13 @@ else
         countries = await CountryService.GetCountries();
     }
 
-
-
-    // getting counry flag 
-
-   public string GrtCountryFlag(string countryShortCode)
+    /// <summary>
+    /// Gets the country flag based on the country short code.
+    /// </summary>
+    /// <param name="countryShortCode">The short code of the country.</param>
+    /// <returns>The flag of the country.</returns>
+    public string GrtCountryFlag(string countryShortCode)
     {
         return CountryService.GetCountryFlag(countryShortCode);
     }
-
 }

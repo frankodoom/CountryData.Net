@@ -20,7 +20,6 @@
 - 🗺️ Get country region by ISO 3166 country code
 - ☎️ Get country phone code by ISO 3166 country code
 
-![Blazor Sample](./Assets/BlazorSample.gif)
 
 ### Install Library
 ##### Package Manager
