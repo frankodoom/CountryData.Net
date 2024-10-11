@@ -1,0 +1,86 @@
+﻿@page "/"
+
+@inject CountryHelper CountryService
+
+@if (countries == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <label for="countryDropdown" class="select-label">Select Country:</label>
+    <select id="countryDropdown" class="form-select">
+        @foreach (var country in countries)
+        {
+            <option value="@country.CountryShortCode">
+                @if (ShowFlag)
+                {
+                    <span style="padding-right:100px">@GetCountryFlag(country.CountryShortCode)</span>
+                }
+                @if (ShowName)
+                {
+                    <span class="option-item">@country.CountryName</span>
+                }
+                @if (ShowPhoneCode)
+                {
+                    <span class="option-item">@country.PhoneCode</span>
+                }
+            </option>
+        }
+    </select>
+}
+
+@code {
+    /// <summary>
+    /// A collection of countries to be displayed on the page.
+    /// </summary>
+    private IEnumerable<Country> countries;
+
+    /// <summary>
+    /// Controls whether the country flag is displayed.
+    /// </summary>
+    [Parameter]
+    public bool ShowFlag { get; set; } = true;
+
+    /// <summary>
+    /// Controls whether the country name is displayed.
+    /// </summary>
+    [Parameter]
+    public bool ShowName { get; set; } = true;
+
+    /// <summary>
+    /// Controls whether the country phone code is displayed.
+    /// </summary>
+    [Parameter]
+    public bool ShowPhoneCode { get; set; } = true;
+
+    /// <summary>
+    /// Initializes the component and loads the country data.
+    /// </summary>
+    protected override void OnInitialized()
+    {
+        countries = CountryService.GetCountryData();
+    }
+
+    /// <summary>
+    /// Gets the country flag based on the country short code.
+    /// </summary>
+    /// <param name="countryShortCode">The short code of the country.</param>
+    /// <returns>The flag of the country.</returns>
+    public string GetCountryFlag(string countryShortCode)
+    {
+        return CountryService.GetCountryEmojiFlag(countryShortCode);
+    }
+
+    /// <summary>
+    /// Dispose method to clean up resources.
+    /// </summary>
+    public void Dispose()
+    {
+        // Clean up any resources here
+        if (CountryService is IDisposable disposableService)
+        {
+            disposableService.Dispose();
+        }
+    }
+}
