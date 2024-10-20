@@ -1,0 +1,24 @@
+.select-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.option-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.flag-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

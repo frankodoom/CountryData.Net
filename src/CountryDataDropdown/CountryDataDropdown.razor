@@ -1,6 +1,8 @@
 ﻿@page "/"
+<link href="_content/CountryDataDropdown/css/styles.css" rel="stylesheet" />
 
 @inject CountryHelper CountryService
+
 
 @if (countries == null)
 {
@@ -8,6 +10,8 @@
 }
 else
 {
+
+
     <label for="countryDropdown" class="select-label">Select Country:</label>
     <select id="countryDropdown" class="form-select">
         @foreach (var country in countries)
@@ -15,11 +19,14 @@ else
             <option value="@country.CountryShortCode">
                 @if (ShowFlag)
                 {
-                    <span style="padding-right:100px">@GetCountryFlag(country.CountryShortCode)</span>
+                    <span>@GetCountryFlag(country.CountryShortCode)</span>
+                    @: &nbsp;
                 }
+
                 @if (ShowName)
                 {
                     <span class="option-item">@country.CountryName</span>
+                    @: &nbsp;
                 }
                 @if (ShowPhoneCode)
                 {
@@ -28,6 +35,8 @@ else
             </option>
         }
     </select>
+
+
 }
 
 @code {
