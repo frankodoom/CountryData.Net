@@ -10771,60 +10771,32 @@
     "phoneCode": "+977",
     "regions": [
       {
+        "name": "Koshi",
+        "shortCode": "1"
+      },
+      {
+        "name": "Madhesh",
+        "shortCode": "2"
+      },
+      {
         "name": "Bagmati",
-        "shortCode": "BA"
-      },
-      {
-        "name": "Bheri",
-        "shortCode": "BH"
-      },
-      {
-        "name": "Dhawalagiri",
-        "shortCode": "DH"
+        "shortCode": "3"
       },
       {
         "name": "Gandaki",
-        "shortCode": "GA"
-      },
-      {
-        "name": "Janakpur",
-        "shortCode": "JA"
-      },
-      {
-        "name": "Karnali",
-        "shortCode": "KA"
-      },
-      {
-        "name": "Kosi",
-        "shortCode": "KO"
+        "shortCode": "4"
       },
       {
         "name": "Lumbini",
-        "shortCode": "LU"
+        "shortCode": "5"
       },
       {
-        "name": "Mahakali",
-        "shortCode": "MA"
+        "name": "Karnali",
+        "shortCode": "6"
       },
       {
-        "name": "Mechi",
-        "shortCode": "ME"
-      },
-      {
-        "name": "Narayani",
-        "shortCode": "NA"
-      },
-      {
-        "name": "Rapti",
-        "shortCode": "RA"
-      },
-      {
-        "name": "Sagarmatha",
-        "shortCode": "SA"
-      },
-      {
-        "name": "Seti",
-        "shortCode": "SE"
+        "name": "Sudurpashchim",
+        "shortCode": "7"
       }
     ]
   },
