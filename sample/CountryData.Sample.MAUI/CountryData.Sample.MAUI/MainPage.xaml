@@ -23,7 +23,9 @@
                            Text="{Binding PhoneCode}"
                                 Margin="5,0,0,0"
                             />
-
+                         
+                          
+                        
                         <Label Grid.Column="2"
                                HorizontalTextAlignment="Start"
                                HorizontalOptions="FillAndExpand"
