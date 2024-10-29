@@ -129,8 +129,24 @@ public class CountryHelperTests
     }
 
 
+    /// <summary>
+    ///  Tests the GetRegionByCountryCode method in the CountryHelper class.
+    ///  This test verifies if the method correctly returns the regions associated with a given country's short code.
+    /// </summary>
+    /// <param name="shortCode">The short code of the country for which the regions are to be retrieved.</param>
 
+    [Theory]
+    [InlineData("LK")]
+    public void GetRegions_WithCorrectCode_ShouldReturnCountryRegions(string shortCode)
+    {
+        //Act
+        var regions = _countryHelper.GetRegionByCountryCode(shortCode);
 
-
-
+        //Assert
+        regions.Should().NotBeNull();
+        if (shortCode == "LK")
+        {
+            regions.Should().HaveCount(9);
+        }
+    }
 }

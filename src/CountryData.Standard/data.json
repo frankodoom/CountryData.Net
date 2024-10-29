@@ -15261,39 +15261,39 @@
     "phoneCode": "+94",
     "regions": [
       {
-        "name": "Basnahira",
+        "name": "Western Province",
         "shortCode": "1"
       },
       {
-        "name": "Dakunu",
+        "name": "Southern Province",
         "shortCode": "3"
       },
       {
-        "name": "Madhyama",
+        "name": "Central Province",
         "shortCode": "2"
       },
       {
-        "name": "Naegenahira",
+        "name": "Eastern Province",
         "shortCode": "5"
       },
       {
-        "name": "Sabaragamuwa",
+        "name": "Sabaragamuwa Province",
         "shortCode": "9"
       },
       {
-        "name": "Uturu",
+        "name": "Northern Province",
         "shortCode": "4"
       },
       {
-        "name": "Uturumaeda",
+        "name": "North Central Province",
         "shortCode": "7"
       },
       {
-        "name": "Vayamba",
+        "name": "North Western Province",
         "shortCode": "6"
       },
       {
-        "name": "Uva",
+        "name": "Uva Province",
         "shortCode": "8"
       }
     ]
