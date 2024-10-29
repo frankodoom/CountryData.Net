@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        ///  
+        ///  Read 
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
@@ -46,7 +47,7 @@ namespace CountryData.Standard
         /// that can be querried by Lambda Expressions
         /// </summary>
         /// <returns>IEnumerable<Country></returns>
-        public IEnumerable<Country> GetCountryData()
+        public virtual IEnumerable<Country> GetCountryData()
         {
             return _Countries;
         }
@@ -69,8 +70,9 @@ namespace CountryData.Standard
         /// <returns></returns>
         public string GetCountryEmojiFlag(string shortCode)
         {
-            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1A5)));
+            return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1E6 - 'A')));
         }
+
 
         /// <summary>
         /// Selects Regions in a Particular Country
@@ -113,11 +115,39 @@ namespace CountryData.Standard
         /// <returns>Country</returns>
         public IEnumerable<Country> GetCountryByPhoneCode(string phoneCode)
         {
-           var Country =  _Countries.Where(c => c.PhoneCode == phoneCode);
+            var Country = _Countries.Where(c => c.PhoneCode == phoneCode);
             return Country;
         }
 
 
+        /// <summary>
+        /// Retrieves all currency codes for a given country identified by its short code.
+        /// </summary>
+        /// <param name="shortCode">The short code of the country.</param>
+        /// <returns>An IEnumerable of Currency objects associated with the specified country.</returns>
+        public IEnumerable<Currency> GetCurrencyCodesByCountryCode(string shortCode)
+        {
+            return _Countries.Where(x => x.CountryShortCode == shortCode)
+                             .SelectMany(c => c.Currency)
+                             .ToList();
+        }
+
+
+        /// <summary>
+        /// Retrieves a list of countries that use a specific currency code.
+        /// </summary>
+        /// <param name="currencyCode">The currency code to search for.</param>
+        /// <returns>An IEnumerable of Country objects that use the specified currency code.</returns>
+        /// <exception cref="InvalidOperationException">Thrown when the country data is not initialized.</exception>
+        public IEnumerable<Country> GetCountryByCurrencyCode(string currencyCode)
+        {
+            if (_Countries == null)
+            {
+                throw new InvalidOperationException("Country data is not initialized.");
+            }
+
+            return _Countries.Where(c => c.Currency != null && c.Currency.Exists(currency => currency.Code == currencyCode));
+        }
 
 
     }
