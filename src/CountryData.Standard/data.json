@@ -3,7 +3,14 @@
     "countryName": "Afghanistan",
     "countryShortCode": "AF",
     "phoneCode": "+93",
+    "currency": [
+      {
+        "code": "AFN",
+        "name": "Afghan afghani"
+      }
+    ],
     "regions": [
+
       {
         "name": "Badakhshan",
         "shortCode": "BDS"
@@ -146,6 +153,12 @@
     "countryName": "Åland Islands",
     "countryShortCode": "AX",
     "phoneCode": "+358",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Brändö",
@@ -217,8 +230,12 @@
     "countryName": "Albania",
     "countryShortCode": "AL",
     "phoneCode": "+355",
-    
-
+    "currency": [
+      {
+        "code": "ALL",
+        "name": "Albanian lek"
+      }
+    ],
     "regions": [
       {
         "name": "Berat",
@@ -274,6 +291,12 @@
     "countryName": "Algeria",
     "countryShortCode": "DZ",
     "phoneCode": "+213",
+    "currency": [
+      {
+        "code": "DZD",
+        "name": "Algerian dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Adrar",
@@ -473,6 +496,12 @@
     "countryName": "American Samoa",
     "countryShortCode": "AS",
     "phoneCode": "+1684",
+    "currency": [
+      {
+        "code": "United States dollar",
+        "name": "USD"
+      }
+    ],
     "regions": [
       {
         "name": "Tutuila",
@@ -504,6 +533,12 @@
     "countryName": "Andorra",
     "countryShortCode": "AD",
     "phoneCode": "+376",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Andorra la Vella",
@@ -539,6 +574,12 @@
     "countryName": "Angola",
     "countryShortCode": "AO",
     "phoneCode": "+244",
+    "currency": [
+      {
+        "code": "AOA",
+        "name": "Angolan kwanza"
+      }
+    ],
     "regions": [
       {
         "name": "Bengo",
@@ -618,6 +659,12 @@
     "countryName": "Anguilla",
     "countryShortCode": "AI",
     "phoneCode": "+1264",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Anguilla",
@@ -724,6 +771,12 @@
     "countryName": "Antigua and Barbuda",
     "countryShortCode": "AG",
     "phoneCode": "+1268",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Antigua Island",
@@ -859,6 +912,12 @@
     "countryName": "Argentina",
     "countryShortCode": "AR",
     "phoneCode": "+54",
+    "currency": [
+      {
+        "code": "ARS",
+        "name": "Argentine peso"
+      }
+    ],
     "regions": [
       {
         "name": "Buenos Aires",
@@ -962,6 +1021,12 @@
     "countryName": "Armenia",
     "countryShortCode": "AM",
     "phoneCode": "+374",
+    "currency": [
+      {
+        "code": "AMD",
+        "name": "Armenian dram"
+      }
+    ],
     "regions": [
       {
         "name": "Aragatsotn",
@@ -1013,6 +1078,12 @@
     "countryName": "Aruba",
     "countryShortCode": "AW",
     "phoneCode": "+297",
+    "currency": [
+      {
+        "code": "AWG",
+        "name": "Aruban florin"
+      }
+    ],
     "regions": [
       {
         "name": "Aruba",
@@ -1024,6 +1095,12 @@
     "countryName": "Australia",
     "countryShortCode": "AU",
     "phoneCode": "+61",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Australian Capital Territory",
@@ -1063,6 +1140,12 @@
     "countryName": "Austria",
     "countryShortCode": "AT",
     "phoneCode": "+43",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Burgenland",
@@ -1106,6 +1189,12 @@
     "countryName": "Azerbaijan",
     "countryShortCode": "AZ",
     "phoneCode": "+994",
+    "currency": [
+      {
+        "code": "AZN",
+        "name": "Azerbaijan manat"
+      }
+    ],
     "regions": [
       {
         "name": "Abşeron",
@@ -1381,6 +1470,12 @@
     "countryName": "Bahamas",
     "countryShortCode": "BS",
     "phoneCode": "+1242",
+    "currency": [
+      {
+        "code": "BSD",
+        "name": "Bahamian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Acklins Island",
@@ -1524,6 +1619,12 @@
     "countryName": "Bahrain",
     "countryShortCode": "BH",
     "phoneCode": "+973",
+    "currency": [
+      {
+        "code": "BHD",
+        "name": "Bahraini dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Al Janūbīyah",
@@ -1551,6 +1652,12 @@
     "countryName": "Bangladesh",
     "countryShortCode": "BD",
     "phoneCode": "+880",
+    "currency": [
+      {
+        "code": "BDT",
+        "name": "Bangladeshi taka"
+      }
+    ],
     "regions": [
       {
         "name": "Barisal",
@@ -1590,6 +1697,12 @@
     "countryName": "Barbados",
     "countryShortCode": "BB",
     "phoneCode": "+1246",
+    "currency": [
+      {
+        "code": "BBD",
+        "name": "Barbadian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Christ Church",
@@ -1641,6 +1754,12 @@
     "countryName": "Belarus",
     "countryShortCode": "BY",
     "phoneCode": "+375",
+    "currency": [
+      {
+        "code": "BYN",
+        "name": "Belarusian ruble"
+      }
+    ],
     "regions": [
       {
         "name": "Brest voblast",
@@ -1676,6 +1795,12 @@
     "countryName": "Belgium",
     "countryShortCode": "BE",
     "phoneCode": "+32",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Brussels",
@@ -1695,6 +1820,12 @@
     "countryName": "Belize",
     "countryShortCode": "BZ",
     "phoneCode": "+501",
+    "currency": [
+      {
+        "code": "BZD",
+        "name": "Belize dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Belize District",
@@ -1726,6 +1857,12 @@
     "countryName": "Benin",
     "countryShortCode": "BJ",
     "phoneCode": "+229",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Alibori",
@@ -1781,6 +1918,12 @@
     "countryName": "Bermuda",
     "countryShortCode": "BM",
     "phoneCode": "+1441",
+    "currency": [
+      {
+        "code": "BMD",
+        "name": "Bermudian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "City of Hamilton",
@@ -1832,6 +1975,13 @@
     "countryName": "Bhutan",
     "countryShortCode": "BT",
     "phoneCode": "+975",
+    "currency": [
+      {
+        "code": "BTN",
+        "name": "Bhutanese ngultrum"
+      }
+    ],
+    
     "regions": [
       {
         "name": "Bumthang",
@@ -1919,6 +2069,12 @@
     "countryName": "Bolivia",
     "countryShortCode": "BO",
     "phoneCode": "+591",
+    "currency": [
+      {
+        "code": "BOB",
+        "name": "Bolivian boliviano"
+      }
+    ],
     "regions": [
       {
         "name": "Beni",
@@ -1963,7 +2119,12 @@
     "countryShortCode": "BQ",
     "phoneCode": "+599",
 
-
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Bonaire",
@@ -1983,6 +2144,13 @@
     "countryName": "Bosnia and Herzegovina",
     "countryShortCode": "BA",
     "phoneCode": "+387",
+    "currency": [
+      {
+        "code": "BAM",
+        "name": "Bosnia and Herzegovina convertible mark"
+      }
+    ],
+
     "regions": [
       {
         "name": "Brčko Distrikt",
@@ -2002,6 +2170,12 @@
     "countryName": "Botswana",
     "countryShortCode": "BW",
     "phoneCode": "+267",
+    "currency": [
+      {
+        "code": "BWP",
+        "name": "Botswana pula"
+      }
+    ],
     "regions": [
       {
         "name": "Central",
@@ -2045,7 +2219,12 @@
     "countryName": "Bouvet Island",
     "countryShortCode": "BV",
     "phoneCode": "+47",
-
+    "currency": [
+      {
+        "code": "",
+        "name": ""
+      }
+    ],
     "regions": [
       {
         "name": "Bouvet Island",
@@ -2057,6 +2236,12 @@
     "countryName": "Brazil",
     "countryShortCode": "BR",
     "phoneCode": "+55",
+    "currency": [
+      {
+        "code": "BRL",
+        "name": "Brazilian real"
+      }
+    ],
     "regions": [
       {
         "name": "Acre",
@@ -2172,6 +2357,12 @@
     "countryName": "British Indian Ocean Territory",
     "countryShortCode": "IO",
     "phoneCode": "+246",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "British Indian Ocean Territory",
@@ -2183,6 +2374,12 @@
     "countryName": "Brunei Darussalam",
     "countryShortCode": "BN",
     "phoneCode": "+673",
+    "currency": [
+      {
+        "code": "BND",
+        "name": "Brunei dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Belait",
@@ -2206,6 +2403,12 @@
     "countryName": "Bulgaria",
     "countryShortCode": "BG",
     "phoneCode": "+359",
+    "currency": [
+      {
+        "code": "BGN",
+        "name": "Bulgarian lev"
+      }
+    ],
     "regions": [
       {
         "name": "Blagoevgrad",
@@ -2325,6 +2528,12 @@
     "countryName": "Burkina Faso",
     "countryShortCode": "BF",
     "phoneCode": "+226",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Balé",
@@ -2512,6 +2721,12 @@
     "countryName": "Burundi",
     "countryShortCode": "BI",
     "phoneCode": "+257",
+    "currency": [
+      {
+        "code": "BIF",
+        "name": "Burundi franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bubanza",
@@ -2587,6 +2802,12 @@
     "countryName": "Cambodia",
     "countryShortCode": "KH",
     "phoneCode": "+855",
+    "currency": [
+      {
+        "code": "KHR",
+        "name": "Cambodian riel"
+      }
+    ],
     "regions": [
       {
         "name": "Baat Dambang",
@@ -2694,6 +2915,12 @@
     "countryName": "Cameroon",
     "countryShortCode": "CM",
     "phoneCode": "+237",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Adamaoua",
@@ -2741,6 +2968,12 @@
     "countryName": "Canada",
     "countryShortCode": "CA",
     "phoneCode": "+1",
+    "currency": [
+      {
+        "code": "CAD",
+        "name": "Canadian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Alberta",
@@ -2800,6 +3033,12 @@
     "countryName": "Cape Verde",
     "countryShortCode": "CV",
     "phoneCode": "+238",
+    "currency": [
+      {
+        "code": "CVE",
+        "name": "Cape Verdean escudo"
+      }
+    ],
     "regions": [
       {
         "name": "Boa Vista",
@@ -2883,6 +3122,12 @@
     "countryName": "Cayman Islands",
     "countryShortCode": "KY",
     "phoneCode": "+1345",
+    "currency": [
+      {
+        "code": "KYD",
+        "name": "Cayman Islands dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Creek"
@@ -2914,6 +3159,12 @@
     "countryName": "Central African Republic",
     "countryShortCode": "CF",
     "phoneCode": "+236",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bamingui-Bangoran",
@@ -2989,6 +3240,12 @@
     "countryName": "Chad",
     "countryShortCode": "TD",
     "phoneCode": "+235",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bahr el Ghazal",
@@ -3084,6 +3341,12 @@
     "countryName": "Chile",
     "countryShortCode": "CL",
     "phoneCode": "+56",
+    "currency": [
+      {
+        "code": "CLP",
+        "name": "Chilean peso"
+      }
+    ],
     "regions": [
       {
         "name": "Aisén del General Carlos Ibáñez del Campo",
@@ -3159,6 +3422,12 @@
     "countryName": "China",
     "countryShortCode": "CN",
     "phoneCode": "+86",
+    "currency": [
+      {
+        "code": "CNY",
+        "name": "Chinese yuan  Renminbi"
+      }
+    ],
     "regions": [
       {
         "name": "Anhui",
@@ -3298,6 +3567,13 @@
     "countryName": "Christmas Island",
     "countryShortCode": "CX",
     "phoneCode": "+61",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
+
     "regions": [
       {
         "name": "Christmas Island",
@@ -3309,6 +3585,12 @@
     "countryName": "Cocos (Keeling) Islands",
     "countryShortCode": "CC",
     "phoneCode": "+61",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Direction Island",
@@ -3340,6 +3622,13 @@
     "countryName": "Colombia",
     "countryShortCode": "CO",
     "phoneCode": "+57",
+
+    "currency": [
+      {
+        "code": "COP",
+        "name": "Colombian peso"
+      }
+    ],
     "regions": [
       {
         "name": "Amazonas",
@@ -3479,6 +3768,12 @@
     "countryName": "Comoros",
     "countryShortCode": "KM",
     "phoneCode": "+269",
+    "currency": [
+      {
+        "code": "KMF",
+        "name": "Comorian franc"
+      }
+    ],
     "regions": [
       {
         "name": "Andjazîdja",
@@ -3498,6 +3793,12 @@
     "countryName": "Congo, Republic of the (Brazzaville)",
     "countryShortCode": "CG",
     "phoneCode": "+242",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bouenza",
@@ -3553,6 +3854,13 @@
     "countryName": "Congo, the Democratic Republic of the (Kinshasa)",
     "countryShortCode": "CD",
     "phoneCode": "+243",
+
+    "currency": [
+      {
+        "code": "CDF",
+        "name": "Congolese franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bandundu",
@@ -3604,6 +3912,12 @@
     "countryName": "Cook Islands",
     "countryShortCode": "CK",
     "phoneCode": "+682",
+    "currency": [
+      {
+        "code": "NZD",
+        "name": "New Zealand dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Aitutaki"
@@ -3647,6 +3961,12 @@
     "countryName": "Costa Rica",
     "countryShortCode": "CR",
     "phoneCode": "+506",
+    "currency": [
+      {
+        "code": "CRC",
+        "name": "Costa Rican colón"
+      }
+    ],
     "regions": [
       {
         "name": "Alajuela",
@@ -3682,6 +4002,12 @@
     "countryName": "Côte d'Ivoire, Republic of",
     "countryShortCode": "CI",
     "phoneCode": "+225",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Agnéby",
@@ -3765,6 +4091,13 @@
     "countryName": "Croatia",
     "countryShortCode": "HR",
     "phoneCode": "+385",
+
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Bjelovarsko-Bilogorska Županija",
@@ -3856,6 +4189,13 @@
     "countryName": "Cuba",
     "countryShortCode": "CU",
     "phoneCode": "+53",
+
+    "currency": [
+      {
+        "code": "CUP",
+        "name": "Cuban peso"
+      }
+    ],
     "regions": [
       {
         "name": "Artemisa",
@@ -3926,7 +4266,14 @@
   {
     "countryName": "Curaçao",
     "countryShortCode": "CW",
-    "phoneCode": "+599",
+    "phoneCode": "+599", 
+    "currency": [
+      {
+        "code": "ANG",
+        "name": "Netherlands Antillean guilder"
+      }
+    ],
+
     "regions": [
       {
         "name": "Curaçao",
@@ -3938,6 +4285,12 @@
     "countryName": "Cyprus",
     "countryShortCode": "CY",
     "phoneCode": "+357",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Ammochostos",
@@ -3969,6 +4322,12 @@
     "countryName": "Czech Republic",
     "countryShortCode": "CZ",
     "phoneCode": "+420",
+    "currency": [
+      {
+        "code": "CZK",
+        "name": "Czech koruna"
+      }
+    ],
     "regions": [
       {
         "name": "Hlavní město Praha",
@@ -4032,6 +4391,12 @@
     "countryName": "Denmark",
     "countryShortCode": "DK",
     "phoneCode": "+45",
+    "currency": [
+      {
+        "code": "DKK",
+        "name": "Danish krone"
+      }
+    ],
     "regions": [
       {
         "name": "Hovedstaden",
@@ -4099,6 +4464,12 @@
     "countryName": "Djibouti",
     "countryShortCode": "DJ",
     "phoneCode": "+253",
+    "currency": [
+      {
+        "code": "DJF",
+        "name": "Djiboutian franc"
+      }
+    ],
     "regions": [
       {
         "name": "Ali Sabieh",
@@ -4126,6 +4497,12 @@
     "countryName": "Dominica",
     "countryShortCode": "DM",
     "phoneCode": "+1767",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Saint Andrew Parish",
@@ -4173,6 +4550,12 @@
     "countryName": "Dominican Republic",
     "countryShortCode": "DO",
     "phoneCode": "+1849",
+    "currency": [
+      {
+        "code": "DOP",
+        "name": "Dominican peso"
+      }
+    ],
     "regions": [
       {
         "name": "Cibao Central",
@@ -4216,6 +4599,12 @@
     "countryName": "Ecuador",
     "countryShortCode": "EC",
     "phoneCode": "+593",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Azuay",
@@ -4319,6 +4708,12 @@
     "countryName": "Egypt",
     "countryShortCode": "EG",
     "phoneCode": "+20",
+    "currency": [
+      {
+        "code": "EGP",
+        "name": "Egyptian pound"
+      }
+    ],
     "regions": [
       {
         "name": "Alexandria",
@@ -4442,6 +4837,12 @@
     "countryName": "El Salvador",
     "countryShortCode": "SV",
     "phoneCode": "+503",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Ahuachapán",
@@ -4505,6 +4906,12 @@
     "countryName": "Equatorial Guinea",
     "countryShortCode": "GQ",
     "phoneCode": "+240",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Annobón",
@@ -4540,6 +4947,12 @@
     "countryName": "Eritrea",
     "countryShortCode": "ER",
     "phoneCode": "+291",
+    "currency": [
+      {
+        "code": "ERN",
+        "name": "Eritrean nakfa"
+      }
+    ],
     "regions": [
       {
         "name": "Anseba",
@@ -4571,6 +4984,12 @@
     "countryName": "Estonia",
     "countryShortCode": "EE",
     "phoneCode": "+372",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Harjumaa (Tallinn)",
@@ -4638,6 +5057,12 @@
     "countryName": "Ethiopia",
     "countryShortCode": "ET",
     "phoneCode": "+251",
+    "currency": [
+      {
+        "code": "ETB",
+        "name": "Ethiopian birr"
+      }
+    ],
     "regions": [
       {
         "name": "Addis Ababa",
@@ -4689,6 +5114,12 @@
     "countryName": "Falkland Islands (Islas Malvinas)",
     "countryShortCode": "FK",
     "phoneCode": "+500",
+    "currency": [
+      {
+        "code": "FKP",
+        "name": "Falkland Islands pound"
+      }
+    ],
     "regions": [
       {
         "name": "Falkland Islands (Islas Malvinas)"
@@ -4699,6 +5130,12 @@
     "countryName": "Faroe Islands",
     "countryShortCode": "FO",
     "phoneCode": "+298",
+    "currency": [
+      {
+        "code": "DKK",
+        "name": "Danish krone"
+      }
+    ],
     "regions": [
       {
         "name": "Bordoy"
@@ -4733,6 +5170,12 @@
     "countryName": "Fiji",
     "countryShortCode": "FJ",
     "phoneCode": "+679",
+    "currency": [
+      {
+        "code": "FJD",
+        "name": "Fijian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Ba",
@@ -4800,6 +5243,12 @@
     "countryName": "Finland",
     "countryShortCode": "FI",
     "phoneCode": "+358",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Ahvenanmaan lääni",
@@ -4831,6 +5280,12 @@
     "countryName": "France",
     "countryShortCode": "FR",
     "phoneCode": "+33",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Auvergne-Rhône-Alpes",
@@ -4942,6 +5397,12 @@
     "countryName": "French Guiana",
     "countryShortCode": "GF",
     "phoneCode": "+594",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "French Guiana"
@@ -4952,6 +5413,12 @@
     "countryName": "French Polynesia",
     "countryShortCode": "PF",
     "phoneCode": "+689",
+    "currency": [
+      {
+        "code": "XPF",
+        "name": "CFP franc"
+      }
+    ],
     "regions": [
       {
         "name": "Archipel des Marquises"
@@ -4974,6 +5441,12 @@
     "countryName": "French Southern and Antarctic Lands",
     "countryShortCode": "TF",
     "phoneCode": "+262",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Adelie Land"
@@ -4993,6 +5466,12 @@
     "countryName": "Gabon",
     "countryShortCode": "GA",
     "phoneCode": "+241",
+    "currency": [
+      {
+        "code": "XAF",
+        "name": "Central African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Estuaire",
@@ -5036,6 +5515,12 @@
     "countryName": "Gambia, The",
     "countryShortCode": "GM",
     "phoneCode": "+220",
+    "currency": [
+      {
+        "code": "GMD",
+        "name": "Gambian dalasi"
+      }
+    ],
     "regions": [
       {
         "name": "Banjul",
@@ -5067,6 +5552,12 @@
     "countryName": "Georgia",
     "countryShortCode": "GE",
     "phoneCode": "+995",
+    "currency": [
+      {
+        "code": "GEL",
+        "name": "Georgian lari"
+      }
+    ],
     "regions": [
       {
         "name": "Abkhazia (Sokhumi)",
@@ -5122,6 +5613,12 @@
     "countryName": "Germany",
     "countryShortCode": "DE",
     "phoneCode": "+49",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Baden-Württemberg",
@@ -5193,6 +5690,12 @@
     "countryName": "Ghana",
     "countryShortCode": "GH",
     "phoneCode": "+233",
+    "currency": [
+      {
+        "code": "GHS",
+        "name": "Ghanaian cedi"
+      }
+    ],
     "regions": [
       {
         "name": "Ahafo"
@@ -5257,6 +5760,12 @@
     "countryName": "Gibraltar",
     "countryShortCode": "GI",
     "phoneCode": "+350",
+    "currency": [
+      {
+        "code": "GIP",
+        "name": "Gibraltar pound"
+      }
+    ],
     "regions": [
       {
         "name": "Gibraltar"
@@ -5267,6 +5776,12 @@
     "countryName": "Greece",
     "countryShortCode": "GR",
     "phoneCode": "+30",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Anatolikí Makedonía kai Thráki",
@@ -5330,6 +5845,12 @@
     "countryName": "Greenland",
     "countryShortCode": "GL",
     "phoneCode": "+299",
+    "currency": [
+      {
+        "code": "DKK",
+        "name": "Danish krone"
+      }
+    ],
     "regions": [
       {
         "name": "Kommune Kujalleq",
@@ -5353,6 +5874,12 @@
     "countryName": "Grenada",
     "countryShortCode": "GD",
     "phoneCode": "+1473",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Saint Andrew",
@@ -5388,6 +5915,12 @@
     "countryName": "Guadeloupe",
     "countryShortCode": "GP",
     "phoneCode": "+590",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Guadeloupe"
@@ -5398,6 +5931,13 @@
     "countryName": "Guam",
     "countryShortCode": "GU",
     "phoneCode": "+1671",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
+
     "regions": [
       {
         "name": "Guam"
@@ -5408,6 +5948,13 @@
     "countryName": "Guatemala",
     "countryShortCode": "GT",
     "phoneCode": "+502",
+
+    "currency": [
+      {
+        "code": "GTQ",
+        "name": "Guatemalan quetzal"
+      }
+    ],
     "regions": [
       {
         "name": "Alta Verapaz",
@@ -5503,6 +6050,12 @@
     "countryName": "Guernsey",
     "countryShortCode": "GG",
     "phoneCode": "+44",
+    "currency": [
+      {
+        "code": "GGP",
+        "name": "Guernsey Pound"
+      }
+    ],
     "regions": [
       {
         "name": "Castel"
@@ -5540,6 +6093,12 @@
     "countryName": "Guinea",
     "countryShortCode": "GN",
     "phoneCode": "+224",
+    "currency": [
+      {
+        "code": "GNF",
+        "name": "Guinean franc"
+      }
+    ],
     "regions": [
       {
         "name": "Boké",
@@ -5579,6 +6138,12 @@
     "countryName": "Guinea-Bissau",
     "countryShortCode": "GW",
     "phoneCode": "+245",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Bafatá",
@@ -5622,6 +6187,12 @@
     "countryName": "Guyana",
     "countryShortCode": "GY",
     "phoneCode": "+592",
+    "currency": [
+      {
+        "code": "GYD",
+        "name": "Guyanese dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Barima-Waini",
@@ -5669,6 +6240,12 @@
     "countryName": "Haiti",
     "countryShortCode": "HT",
     "phoneCode": "+509",
+    "currency": [
+      {
+        "code": "HTG",
+        "name": "Haitian gourde"
+      }
+    ],
     "regions": [
       {
         "name": "Artibonite",
@@ -5716,7 +6293,12 @@
     "countryName": "Heard Island and McDonald Islands",
     "countryShortCode": "HM",
    "phoneCode": "+672",
-
+   "currency": [
+      {
+        "code": "",
+        "name": ""
+      }
+    ],
     "regions": [
       {
         "name": "Heard Island and McDonald Islands"
@@ -5727,6 +6309,13 @@
     "countryName": "Holy See (Vatican City)",
     "countryShortCode": "VA",
     "phoneCode": "+379",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
+
     "regions": [
       {
         "name": "Holy See (Vatican City)",
@@ -5738,6 +6327,12 @@
     "countryName": "Honduras",
     "countryShortCode": "HN",
     "phoneCode": "+504",
+    "currency": [
+      {
+        "code": "HNL",
+        "name": "Honduran lempira"
+      }
+    ],
     "regions": [
       {
         "name": "Atlántida",
@@ -5817,6 +6412,12 @@
     "countryName": "Hong Kong",
     "countryShortCode": "HK",
     "phoneCode": "+852",
+    "currency": [
+      {
+        "code": "HKD",
+        "name": "Hong Kong dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Hong Kong",
@@ -5828,6 +6429,12 @@
     "countryName": "Hungary",
     "countryShortCode": "HU",
     "phoneCode": "+36",
+    "currency": [
+      {
+        "code": "HUF",
+        "name": "Hungarian forint"
+      }
+    ],
     "regions": [
       {
         "name": "Bács-Kiskun",
@@ -6007,6 +6614,12 @@
     "countryName": "Iceland",
     "countryShortCode": "IS",
     "phoneCode": "+354",
+    "currency": [
+      {
+        "code": "ISK",
+        "name": "Icelandic króna"
+      }
+    ],
     "regions": [
       {
         "name": "Austurland",
@@ -6046,6 +6659,12 @@
     "countryName": "India",
     "countryShortCode": "IN",
     "phoneCode": "+91",
+    "currency": [
+      {
+        "code": "INR",
+        "name": "Indian rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Andaman and Nicobar Islands",
@@ -6197,6 +6816,12 @@
     "countryName": "Indonesia",
     "countryShortCode": "ID",
     "phoneCode": "+62",
+    "currency": [
+      {
+        "code": "IDR",
+        "name": "Indonesian rupiah"
+      }
+    ],
     "regions": [
       {
         "name": "Aceh",
@@ -6336,6 +6961,12 @@
     "countryName": "Iran, Islamic Republic of",
     "countryShortCode": "IR",
     "phoneCode": "+98",
+    "currency": [
+      {
+        "code": "IRR",
+        "name": "Iranian rial"
+      }
+    ],
     "regions": [
       {
         "name": "Alborz",
@@ -6467,6 +7098,12 @@
     "countryName": "Iraq",
     "countryShortCode": "IQ",
     "phoneCode": "+964",
+    "currency": [
+      {
+        "code": "IQD",
+        "name": "Iraqi dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Al Anbār",
@@ -6546,6 +7183,12 @@
     "countryName": "Ireland",
     "countryShortCode": "IE",
     "phoneCode": "+353",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Carlow",
@@ -6657,6 +7300,12 @@
     "countryName": "Isle of Man",
     "countryShortCode": "IM",
     "phoneCode": "+44",
+    "currency": [
+      {
+        "code": "IMP",
+        "name": "Manx pound"
+      }
+    ],
     "regions": [
       {
         "name": "Isle of Man"
@@ -6667,6 +7316,12 @@
     "countryName": "Israel",
     "countryShortCode": "IL",
     "phoneCode": "+972",
+    "currency": [
+      {
+        "code": "ILS",
+        "name": "Israeli new shekel"
+      }
+    ],
     "regions": [
       {
         "name": "HaDarom",
@@ -6698,6 +7353,12 @@
     "countryName": "Italy",
     "countryShortCode": "IT",
     "phoneCode": "+39",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Abruzzo",
@@ -6785,6 +7446,12 @@
     "countryName": "Jamaica",
     "countryShortCode": "JM",
     "phoneCode": "+1876",
+    "currency": [
+      {
+        "code": "JMD",
+        "name": "Jamaican dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Clarendon",
@@ -6848,6 +7515,12 @@
     "countryName": "Japan",
     "countryShortCode": "JP",
     "phoneCode": "+81",
+    "currency": [
+      {
+        "code": "JPY",
+        "name": "Japanese yen"
+      }
+    ],
     "regions": [
       {
         "name": "Aichi",
@@ -7043,6 +7716,13 @@
     "countryName": "Jersey",
     "countryShortCode": "JE",
     "phoneCode": "+44",
+    "currency": [
+      {
+        "code": "JEP",
+        "name": "Jersey pound"
+      }
+    ],
+
     "regions": [
       {
         "name": "Jersey"
@@ -7053,6 +7733,12 @@
     "countryName": "Jordan",
     "countryShortCode": "JO",
     "phoneCode": "+962",
+    "currency": [
+      {
+        "code": "JOD",
+        "name": "Jordanian dinar"
+      }
+    ],
     "regions": [
       {
         "name": "‘Ajlūn",
@@ -7108,6 +7794,12 @@
     "countryName": "Kazakhstan",
     "countryShortCode": "KZ",
     "phoneCode": "+77",
+    "currency": [
+      {
+        "code": "KZT",
+        "name": "Kazakhstani tenge"
+      }
+    ],
     "regions": [
       {
         "name": "Almaty",
@@ -7178,6 +7870,12 @@
     "countryName": "Kenya",
     "countryShortCode": "KE",
     "phoneCode": "+254",
+    "currency": [
+      {
+        "code": "KES",
+        "name": "Kenyan shilling"
+      }
+    ],
     "regions": [
       {
         "name": "Baringo",
@@ -7373,6 +8071,12 @@
     "countryName": "Kiribati",
     "countryShortCode": "KI",
     "phoneCode": "+686",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Abaiang"
@@ -7464,6 +8168,12 @@
     "countryName": "Korea, Democratic People's Republic of",
     "countryShortCode": "KP",
     "phoneCode": "+850",
+    "currency": [
+      {
+        "code": "",
+        "name": ""
+      }
+    ],
     "regions": [
       {
         "name": "Chagang-do (Chagang Province)",
@@ -7515,6 +8225,13 @@
     "countryName": "Korea, Republic of",
     "countryShortCode": "KR",
     "phoneCode": "+82",
+
+    "currency": [
+      {
+        "code": "KRW",
+        "name": "South Korean won"
+      }
+    ],
     "regions": [
       {
         "name": "Ch'ungch'ongbuk-do",
@@ -7590,6 +8307,13 @@
     "countryName": "Kuwait",
     "countryShortCode": "KW",
     "phoneCode": "+965",
+
+    "currency": [
+      {
+        "code": "KWD",
+        "name": "Kuwaiti dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Al Aḩmadi",
@@ -7621,6 +8345,12 @@
     "countryName": "Kyrgyzstan",
     "countryShortCode": "KG",
     "phoneCode": "+996",
+    "currency": [
+      {
+        "code": "KGS",
+        "name": "Kyrgyzstani som"
+      }
+    ],
     "regions": [
       {
         "name": "Batken Oblasty",
@@ -7660,6 +8390,12 @@
     "countryName": "Laos",
     "countryShortCode": "LA",
     "phoneCode": "+856",
+    "currency": [
+      {
+        "code": "LAK",
+        "name": "Lao kip"
+      }
+    ],
     "regions": [
       {
         "name": "Attapu",
@@ -7735,6 +8471,12 @@
     "countryName": "Latvia",
     "countryShortCode": "LV",
     "phoneCode": "+371",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Aglona",
@@ -8218,6 +8960,12 @@
     "countryName": "Lebanon",
     "countryShortCode": "LB",
     "phoneCode": "+961",
+    "currency": [
+      {
+        "code": "LBP",
+        "name": "Lebanese pound"
+      }
+    ],
     "regions": [
       {
         "name": "Aakkâr",
@@ -8257,6 +9005,12 @@
     "countryName": "Lesotho",
     "countryShortCode": "LS",
     "phoneCode": "+266",
+    "currency": [
+      {
+        "code": "LSL",
+        "name": "Lesotho loti"
+      }
+    ],
     "regions": [
       {
         "name": "Berea",
@@ -8304,6 +9058,12 @@
     "countryName": "Liberia",
     "countryShortCode": "LR",
     "phoneCode": "+231",
+    "currency": [
+      {
+        "code": "LRD",
+        "name": "Liberian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Bomi",
@@ -8371,6 +9131,12 @@
     "countryName": "Libya",
     "countryShortCode": "LY",
     "phoneCode": "+218",
+    "currency": [
+      {
+        "code": "LYD",
+        "name": "Libyan dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Al Buţnān",
@@ -8466,6 +9232,12 @@
     "countryName": "Liechtenstein",
     "countryShortCode": "LI",
     "phoneCode": "+423",
+    "currency": [
+      {
+        "code": "CHF",
+        "name": "Swiss franc"
+      }
+    ],
     "regions": [
       {
         "name": "Balzers",
@@ -8517,6 +9289,12 @@
     "countryName": "Lithuania",
     "countryShortCode": "LT",
     "phoneCode": "+370",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Alytaus",
@@ -8564,6 +9342,12 @@
     "countryName": "Luxembourg",
     "countryShortCode": "LU",
     "phoneCode": "+352",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Capellen",
@@ -8619,6 +9403,12 @@
     "countryName": "Macao",
     "countryShortCode": "MO",
     "phoneCode": "+853",
+    "currency": [
+      {
+        "code": "MOP",
+        "name": "Macanese pataca"
+      }
+    ],
     "regions": [
       {
         "name": "Macao"
@@ -8629,6 +9419,12 @@
     "countryName": "Macedonia, Republic of",
     "countryShortCode": "MK",
     "phoneCode": "+389",
+    "currency": [
+      {
+        "code": "MKD",
+        "name": "Macedonian denar"
+      }
+    ],
     "regions": [
       {
         "name": "Aračinovo",
@@ -8920,6 +9716,12 @@
     "countryName": "Madagascar",
     "countryShortCode": "MG",
     "phoneCode": "+261",
+    "currency": [
+      {
+        "code": "MGA",
+        "name": "Malagasy ariary"
+      }
+    ],
     "regions": [
       {
         "name": "Antananarivo",
@@ -8951,6 +9753,12 @@
     "countryName": "Malawi",
     "countryShortCode": "MW",
     "phoneCode": "+265",
+    "currency": [
+      {
+        "code": "MWK",
+        "name": "Malawian kwacha"
+      }
+    ],
     "regions": [
       {
         "name": "Balaka",
@@ -9066,6 +9874,12 @@
     "countryName": "Malaysia",
     "countryShortCode": "MY",
     "phoneCode": "+60",
+    "currency": [
+      {
+        "code": "MYR",
+        "name": "Malaysian ringgit"
+      }
+    ],
     "regions": [
       {
         "name": "Johor",
@@ -9137,6 +9951,12 @@
     "countryName": "Maldives",
     "countryShortCode": "MV",
     "phoneCode": "+960",
+    "currency": [
+      {
+        "code": "MVR",
+        "name": "Maldivian rufiyaa"
+      }
+    ],
     "regions": [
       {
         "name": "Alifu Alifu",
@@ -9228,6 +10048,13 @@
     "countryName": "Mali",
     "countryShortCode": "ML",
     "phoneCode": "+223",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
+
     "regions": [
       {
         "name": "Bamako",
@@ -9271,6 +10098,12 @@
     "countryName": "Malta",
     "countryShortCode": "MT",
     "phoneCode": "+356",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Attard",
@@ -9550,6 +10383,12 @@
     "countryName": "Marshall Islands",
     "countryShortCode": "MH",
     "phoneCode": "+692",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Ailinglaplap",
@@ -9645,6 +10484,12 @@
     "countryName": "Martinique",
     "countryShortCode": "MQ",
     "phoneCode": "+596",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Martinique"
@@ -9655,6 +10500,12 @@
     "countryName": "Mauritania",
     "countryShortCode": "MR",
     "phoneCode": "+222",
+    "currency": [
+      {
+        "code": "MRU",
+        "name": "Mauritanian ouguiya"
+      }
+    ],
     "regions": [
       {
         "name": "Adrar",
@@ -9722,6 +10573,12 @@
     "countryName": "Mauritius",
     "countryShortCode": "MU",
     "phoneCode": "+230",
+    "currency": [
+      {
+        "code": "MUR",
+        "name": "Mauritian rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Agalega Islands",
@@ -9793,6 +10650,12 @@
     "countryName": "Mayotte",
     "countryShortCode": "YT",
     "phoneCode": "+262",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Dzaoudzi",
@@ -9868,6 +10731,12 @@
     "countryName": "Mexico",
     "countryShortCode": "MX",
     "phoneCode": "+52",
+    "currency": [
+      {
+        "code": "MXN",
+        "name": "Mexican peso"
+      }
+    ],
     "regions": [
       {
         "name": "Aguascalientes",
@@ -10003,6 +10872,12 @@
     "countryName": "Micronesia, Federated States of",
     "countryShortCode": "FM",
     "phoneCode": "+691",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Chuuk (Truk)",
@@ -10026,6 +10901,12 @@
     "countryName": "Moldova",
     "countryShortCode": "MD",
     "phoneCode": "+373",
+    "currency": [
+      {
+        "code": "MDL",
+        "name": "Moldovan leu"
+      }
+    ],
     "regions": [
       {
         "name": "Aenii Noi",
@@ -10181,6 +11062,12 @@
     "countryName": "Monaco",
     "countryShortCode": "MC",
     "phoneCode": "+377",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Colle",
@@ -10256,6 +11143,12 @@
     "countryName": "Mongolia",
     "countryShortCode": "MN",
     "phoneCode": "+976",
+    "currency": [
+      {
+        "code": "MNT",
+        "name": "Mongolian tugrik"
+      }
+    ],
     "regions": [
       {
         "name": "Arhangay",
@@ -10343,6 +11236,12 @@
     "countryName": "Montenegro",
     "countryShortCode": "ME",
     "phoneCode": "+382",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Andrijevica",
@@ -10442,6 +11341,12 @@
     "countryName": "Montserrat",
     "countryShortCode": "MS",
     "phoneCode": "+1664",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Saint Anthony"
@@ -10458,6 +11363,12 @@
     "countryName": "Morocco",
     "countryShortCode": "MA",
     "phoneCode": "+212",
+    "currency": [
+      {
+        "code": "MAD",
+        "name": "Moroccan dirham"
+      }
+    ],
     "regions": [
       {
         "name": "Chaouia-Ouardigha",
@@ -10525,6 +11436,12 @@
     "countryName": "Mozambique",
     "countryShortCode": "MZ",
     "phoneCode": "+258",
+    "currency": [
+      {
+        "code": "MZN",
+        "name": "Mozambican metical"
+      }
+    ],
     "regions": [
       {
         "name": "Cabo Delgado",
@@ -10576,6 +11493,12 @@
     "countryName": "Myanmar",
     "countryShortCode": "MM",
     "phoneCode": "+95",
+    "currency": [
+      {
+        "code": "MMK",
+        "name": "Burmese kyat"
+      }
+    ],
     "regions": [
       {
         "name": "Ayeyarwady",
@@ -10643,6 +11566,12 @@
     "countryName": "Namibia",
     "countryShortCode": "NA",
     "phoneCode": "+264",
+    "currency": [
+      {
+        "code": "NAD",
+        "name": "Namibian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Erongo",
@@ -10706,6 +11635,12 @@
     "countryName": "Nauru",
     "countryShortCode": "NR",
     "phoneCode": "+674",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Aiwo",
@@ -10769,6 +11704,12 @@
     "countryName": "Nepal",
     "countryShortCode": "NP",
     "phoneCode": "+977",
+    "currency": [
+      {
+        "code": "NPR",
+        "name": "Nepalese rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Bagmati",
@@ -10832,6 +11773,12 @@
     "countryName": "Netherlands",
     "countryShortCode": "NL",
     "phoneCode": "+31",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Drenthe",
@@ -10887,6 +11834,12 @@
     "countryName": "New Caledonia",
     "countryShortCode": "NC",
     "phoneCode": "+687",
+    "currency": [
+      {
+        "code": "XPF",
+        "name": "CFP franc"
+      }
+    ],
     "regions": [
       {
         "name": "Iles Loyaute"
@@ -10903,6 +11856,12 @@
     "countryName": "New Zealand",
     "countryShortCode": "NZ",
     "phoneCode": "+64",
+    "currency": [
+      {
+        "code": "NZD",
+        "name": "New Zealand dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Auckland",
@@ -10978,6 +11937,12 @@
     "countryName": "Nicaragua",
     "countryShortCode": "NI",
     "phoneCode": "+505",
+    "currency": [
+      {
+        "code": "NIO",
+        "name": "Nicaraguan córdoba"
+      }
+    ],
     "regions": [
       {
         "name": "Boaco",
@@ -11053,6 +12018,12 @@
     "countryName": "Niger",
     "countryShortCode": "NE",
     "phoneCode": "+227",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Agadez",
@@ -11092,6 +12063,12 @@
     "countryName": "Nigeria",
     "countryShortCode": "NG",
     "phoneCode": "+234",
+    "currency": [
+      {
+        "code": "NGN",
+        "name": "Nigerian naira"
+      }
+    ],
     "regions": [
       {
         "name": "Abia",
@@ -11247,6 +12224,12 @@
     "countryName": "Niue",
     "countryShortCode": "NU",
     "phoneCode": "+683",
+    "currency": [
+      {
+        "code": "NZD",
+        "name": "New Zealand dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Niue"
@@ -11257,6 +12240,12 @@
     "countryName": "Norfolk Island",
     "countryShortCode": "NF",
     "phoneCode": "+672",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Norfolk Island"
@@ -11267,6 +12256,12 @@
     "countryName": "Northern Mariana Islands",
     "countryShortCode": "MP",
     "phoneCode": "+1670",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Northern Islands"
@@ -11286,6 +12281,12 @@
     "countryName": "Norway",
     "countryShortCode": "NO",
     "phoneCode": "+47",
+    "currency": [
+      {
+        "code": "NOK",
+        "name": "Norwegian krone"
+      }
+    ],
     "regions": [
       {
         "name": "Akershus",
@@ -11377,6 +12378,12 @@
     "countryName": "Oman",
     "countryShortCode": "OM",
     "phoneCode": "+968",
+    "currency": [
+      {
+        "code": "OMR",
+        "name": "Omani rial"
+      }
+    ],
     "regions": [
       {
         "name": "Ad Dakhiliyah",
@@ -11428,6 +12435,12 @@
     "countryName": "Pakistan",
     "countryShortCode": "PK",
     "phoneCode": "+92",
+    "currency": [
+      {
+        "code": "PKR",
+        "name": "Pakistani rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Āzād Kashmīr",
@@ -11467,6 +12480,12 @@
     "countryName": "Palau",
     "countryShortCode": "PW",
     "phoneCode": "+680",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Aimeliik",
@@ -11538,6 +12557,12 @@
     "countryName": "Palestine, State of",
     "countryShortCode": "PS",
     "phoneCode": "+970",
+    "currency": [
+      {
+        "code": "ILS",
+        "name": "Israeli new sheqel"
+      }
+    ],
     "regions": [
       {
         "name": "Ak Khalīl",
@@ -11609,6 +12634,12 @@
     "countryName": "Panama",
     "countryShortCode": "PA",
     "phoneCode": "+507",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Bocas del Toro",
@@ -11668,6 +12699,12 @@
     "countryName": "Papua New Guinea",
     "countryShortCode": "PG",
     "phoneCode": "+675",
+    "currency": [
+      {
+        "code": "PGK",
+        "name": "Papua New Guinean kina"
+      }
+    ],
     "regions": [
       {
         "name": "Bougainville",
@@ -11763,6 +12800,12 @@
     "countryName": "Paraguay",
     "countryShortCode": "PY",
     "phoneCode": "+595",
+    "currency": [
+      {
+        "code": "PYG",
+        "name": "Paraguayan guaraní"
+      }
+    ],
     "regions": [
       {
         "name": "Alto Paraguay",
@@ -11838,6 +12881,12 @@
     "countryName": "Peru",
     "countryShortCode": "PE",
     "phoneCode": "+51",
+    "currency": [
+      {
+        "code": "PEN",
+        "name": "Peruvian nuevo sol"
+      }
+    ],
     "regions": [
       {
         "name": "Amazonas",
@@ -11949,6 +12998,12 @@
     "countryName": "Philippines",
     "countryShortCode": "PH",
     "phoneCode": "+63",
+    "currency": [
+      {
+        "code": "PHP",
+        "name": "Philippine peso"
+      }
+    ],
     "regions": [
       {
         "name": "Abra",
@@ -12276,6 +13331,12 @@
     "countryName": "Pitcairn",
     "countryShortCode": "PN",
     "phoneCode": "+872",
+    "currency": [
+      {
+        "code": "NZD",
+        "name": "New Zealand dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Pitcairn Islands"
@@ -12286,6 +13347,12 @@
     "countryName": "Poland",
     "countryShortCode": "PL",
     "phoneCode": "+48",
+    "currency": [
+      {
+        "code": "PLN",
+        "name": "Polish złoty"
+      }
+    ],
     "regions": [
       {
         "name": "Dolnośląskie",
@@ -12357,6 +13424,12 @@
     "countryName": "Portugal",
     "countryShortCode": "PT",
     "phoneCode": "+351",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Açores",
@@ -12444,6 +13517,12 @@
     "countryName": "Puerto Rico",
     "countryShortCode": "PR",
     "phoneCode": "+1939",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Adjuntas"
@@ -12670,6 +13749,12 @@
     "countryName": "Qatar",
     "countryShortCode": "QA",
     "phoneCode": "+974",
+    "currency": [
+      {
+        "code": "QAR",
+        "name": "Qatari riyal"
+      }
+    ],
     "regions": [
       {
         "name": "Ad Dawḩah",
@@ -12705,6 +13790,12 @@
     "countryName": "Réunion",
     "countryShortCode": "RE",
     "phoneCode": "+262",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Réunion"
@@ -12715,6 +13806,12 @@
     "countryName": "Romania",
     "countryShortCode": "RO",
     "phoneCode": "+40",
+    "currency": [
+      {
+        "code": "RON",
+        "name": "Romanian leu"
+      }
+    ],
     "regions": [
       {
         "name": "Alba",
@@ -12886,6 +13983,12 @@
     "countryName": "Russian Federation",
     "countryShortCode": "RU",
     "phoneCode": "+7",
+    "currency": [
+      {
+        "code": "RUB",
+        "name": "Russian ruble"
+      }
+    ],
     "regions": [
       {
         "name": "Republic of Adygea",
@@ -13225,6 +14328,12 @@
     "countryName": "Rwanda",
     "countryShortCode": "RW",
     "phoneCode": "+250",
+    "currency": [
+      {
+        "code": "RWF",
+        "name": "Rwandan franc"
+      }
+    ],
     "regions": [
       {
         "name": "Kigali",
@@ -13252,6 +14361,12 @@
     "countryName": "Saint Barthélemy",
     "countryShortCode": "BL",
     "phoneCode": "+590",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Au Vent",
@@ -13267,6 +14382,12 @@
     "countryName": "Saint Helena, Ascension and Tristan da Cunha",
     "countryShortCode": "SH",
     "phoneCode": "+290",
+    "currency": [
+      {
+        "code": "SHP",
+        "name": "Saint Helena pound"
+      }
+    ],
     "regions": [
       {
         "name": "Ascension",
@@ -13286,6 +14407,12 @@
     "countryName": "Saint Kitts and Nevis",
     "countryShortCode": "KN",
     "phoneCode": "+1869",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Saint Kitts",
@@ -13301,6 +14428,12 @@
     "countryName": "Saint Lucia",
     "countryShortCode": "LC",
     "phoneCode": "+1758",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Anse-la-Raye",
@@ -13348,6 +14481,12 @@
     "countryName": "Saint Martin",
     "countryShortCode": "MF",
     "phoneCode": "+590",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Saint Martin"
@@ -13358,6 +14497,12 @@
     "countryName": "Saint Pierre and Miquelon",
     "countryShortCode": "PM",
     "phoneCode": "+508",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Miquelon"
@@ -13371,6 +14516,12 @@
     "countryName": "Saint Vincent and the Grenadines",
     "countryShortCode": "VC",
     "phoneCode": "+1784",
+    "currency": [
+      {
+        "code": "XCD",
+        "name": "East Caribbean dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Charlotte",
@@ -13402,6 +14553,12 @@
     "countryName": "Samoa",
     "countryShortCode": "WS",
     "phoneCode": "+685",
+    "currency": [
+      {
+        "code": "WST",
+        "name": "Samoan tālā"
+      }
+    ],
     "regions": [
       {
         "name": "A'ana",
@@ -13453,6 +14610,12 @@
     "countryName": "San Marino",
     "countryShortCode": "SM",
     "phoneCode": "+378",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Acquaviva",
@@ -13496,6 +14659,12 @@
     "countryName": "Sao Tome and Principe",
     "countryShortCode": "ST",
     "phoneCode": "+239",
+    "currency": [
+      {
+        "code": "STN",
+        "name": "São Tomé and Príncipe dobra"
+      }
+    ],
     "regions": [
       {
         "name": "Principe",
@@ -13511,6 +14680,12 @@
     "countryName": "Saudi Arabia",
     "countryShortCode": "SA",
     "phoneCode": "+966",
+    "currency": [
+      {
+        "code": "SAR",
+        "name": "Saudi riyal"
+      }
+    ],
     "regions": [
       {
         "name": "'Asir",
@@ -13570,6 +14745,12 @@
     "countryName": "Senegal",
     "countryShortCode": "SN",
     "phoneCode": "+221",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "West African CFA franc"
+      }
+    ],
     "regions": [
       {
         "name": "Dakar",
@@ -13633,6 +14814,12 @@
     "countryName": "Serbia",
     "countryShortCode": "RS",
     "phoneCode": "+381",
+    "currency": [
+      {
+        "code": "RSD",
+        "name": "Serbian dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Beograd (Belgrade)",
@@ -13760,6 +14947,12 @@
     "countryName": "Seychelles",
     "countryShortCode": "SC",
     "phoneCode": "+248",
+    "currency": [
+      {
+        "code": "SCR",
+        "name": "Seychellois rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Anse aux Pins",
@@ -13867,6 +15060,12 @@
     "countryName": "Sierra Leone",
     "countryShortCode": "SL",
     "phoneCode": "+232",
+    "currency": [
+      {
+        "code": "SLE",
+        "name": "Sierra Leonean leone"
+      }
+    ],
     "regions": [
       {
         "name": "Eastern",
@@ -13890,6 +15089,12 @@
     "countryName": "Singapore",
     "countryShortCode": "SG",
     "phoneCode": "+65",
+    "currency": [
+      {
+        "code": "SGD",
+        "name": "Singapore dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Central Singapore",
@@ -13917,6 +15122,12 @@
     "countryName": "Sint Maarten (Dutch part)",
     "countryShortCode": "SX",
     "phoneCode": "+1721",
+    "currency": [
+      {
+        "code": "ANG",
+        "name": "Netherlands Antillean guilder"
+      }
+    ],
     "regions": [
       {
         "name": "Sint Maarten"
@@ -13927,6 +15138,12 @@
     "countryName": "Slovakia",
     "countryShortCode": "SK",
     "phoneCode": "+421",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Banskobystricky",
@@ -13966,6 +15183,12 @@
     "countryName": "Slovenia",
     "countryShortCode": "SI",
     "phoneCode": "+386",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Ajdovscina",
@@ -14797,6 +16020,12 @@
     "countryName": "Solomon Islands",
     "countryShortCode": "SB",
     "phoneCode": "+677",
+    "currency": [
+      {
+        "code": "SBD",
+        "name": "Solomon Islands dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Central",
@@ -14844,6 +16073,12 @@
     "countryName": "Somalia",
     "countryShortCode": "SO",
     "phoneCode": "+252",
+    "currency": [
+      {
+        "code": "SOS",
+        "name": "Somali shilling"
+      }
+    ],
     "regions": [
       {
         "name": "Awdal",
@@ -14923,6 +16158,12 @@
     "countryName": "South Africa",
     "countryShortCode": "ZA",
     "phoneCode": "+27",
+    "currency": [
+      {
+        "code": "ZAR",
+        "name": "South African rand"
+      }
+    ],
     "regions": [
       {
         "name": "Eastern Cape",
@@ -14966,6 +16207,12 @@
     "countryName": "South Georgia and South Sandwich Islands",
     "countryShortCode": "GS",
     "phoneCode": "+500",
+    "currency": [
+      {
+        "code": "GBP",
+        "name": "Pound sterling"
+      }
+    ],
     "regions": [
       {
         "name": "Bird Island"
@@ -14997,6 +16244,12 @@
     "countryName": "South Sudan",
     "countryShortCode": "SS",
     "phoneCode": "+211",
+    "currency": [
+      {
+        "code": "SSP",
+        "name": "South Sudanese pound"
+      }
+    ],
     "regions": [
       {
         "name": "Central Equatoria",
@@ -15044,6 +16297,12 @@
     "countryName": "Spain",
     "countryShortCode": "ES",
     "phoneCode": "+34",
+    "currency": [
+      {
+        "code": "EUR",
+        "name": "European euro"
+      }
+    ],
     "regions": [
       {
         "name": "Albacete",
@@ -15259,6 +16518,12 @@
     "countryName": "Sri Lanka",
     "countryShortCode": "LK",
     "phoneCode": "+94",
+    "currency": [
+      {
+        "code": "LKR",
+        "name": "Sri Lankan rupee"
+      }
+    ],
     "regions": [
       {
         "name": "Western Province",
@@ -15302,6 +16567,12 @@
     "countryName": "Sudan",
     "countryShortCode": "SD",
     "phoneCode": "+249",
+    "currency": [
+      {
+        "code": "SDG",
+        "name": "Sudanese pound"
+      }
+    ],
     "regions": [
       {
         "name": "Al Bahr al Ahmar",
@@ -15381,6 +16652,12 @@
     "countryName": "Suriname",
     "countryShortCode": "SR",
     "phoneCode": "+597",
+    "currency": [
+      {
+        "code": "SRD",
+        "name": "Surinamese dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Brokopondo",
@@ -15428,6 +16705,12 @@
     "countryName": "Swaziland",
     "countryShortCode": "SZ",
     "phoneCode": "+268",
+    "currency": [
+      {
+        "code": "SZL",
+        "name": "Swazi lilangeni"
+      }
+    ],
     "regions": [
       {
         "name": "Hhohho",
@@ -15451,6 +16734,12 @@
     "countryName": "Sweden",
     "countryShortCode": "SE",
     "phoneCode": "+46",
+    "currency": [
+      {
+        "code": "SEK",
+        "name": "Swedish krona"
+      }
+    ],
     "regions": [
       {
         "name": "Blekinge",
@@ -15542,6 +16831,12 @@
     "countryName": "Switzerland",
     "countryShortCode": "CH",
     "phoneCode": "+41",
+    "currency": [
+      {
+        "code": "CHF",
+        "name": "Swiss franc"
+      }
+    ],
     "regions": [
       {
         "name": "Aargau",
@@ -15653,6 +16948,12 @@
     "countryName": "Syrian Arab Republic",
     "countryShortCode": "SY",
     "phoneCode": "+963",
+    "currency": [
+      {
+        "code": "SYP",
+        "name": "Syrian pound"
+      }
+    ],
     "regions": [
       {
         "name": "Al Hasakah",
@@ -15716,6 +17017,12 @@
     "countryName": "Taiwan",
     "countryShortCode": "TW",
     "phoneCode": "+886",
+    "currency": [
+      {
+        "code": "TWD",
+        "name": "New Taiwan dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Chang-hua",
@@ -15803,6 +17110,12 @@
     "countryName": "Tajikistan",
     "countryShortCode": "TJ",
     "phoneCode": "+992",
+    "currency": [
+      {
+        "code": "TJS",
+        "name": "Tajikistani somoni"
+      }
+    ],
     "regions": [
       {
         "name": "Dushanbe",
@@ -15826,6 +17139,12 @@
     "countryName": "Tanzania, United Republic of",
     "countryShortCode": "TZ",
     "phoneCode": "+255",
+    "currency": [
+      {
+        "code": "TZS",
+        "name": "Tanzanian shilling"
+      }
+    ],
     "regions": [
       {
         "name": "Arusha",
@@ -15937,6 +17256,12 @@
     "countryName": "Thailand",
     "countryShortCode": "TH",
     "phoneCode": "+66",
+    "currency": [
+      {
+        "code": "THB",
+        "name": "Thai baht"
+      }
+    ],
     "regions": [
       {
         "name": "Amnat Charoen",
@@ -16252,6 +17577,12 @@
     "countryName": "Timor-Leste",
     "countryShortCode": "TL",
     "phoneCode": "+670",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Aileu",
@@ -16311,6 +17642,12 @@
     "countryName": "Togo",
     "countryShortCode": "TG",
     "phoneCode": "+228",
+    "currency": [
+      {
+        "code": "XOF",
+        "name": "CFA franc BCEAO"
+      }
+    ],
     "regions": [
       {
         "name": "Centre",
@@ -16338,6 +17675,13 @@
     "countryName": "Tokelau",
     "countryShortCode": "TK",
     "phoneCode": "+690",
+    "currency": [
+      {
+        "code": "",
+        "name": "New Zealand dollar"
+      }
+    ],
+    
     "regions": [
       {
         "name": "Atafu"
@@ -16354,6 +17698,12 @@
     "countryName": "Tonga",
     "countryShortCode": "TO",
     "phoneCode": "+676",
+    "currency": [
+      {
+        "code": "TOP",
+        "name": "Tongan paʻanga"
+      }
+    ],
     "regions": [
       {
         "name": "'Eua",
@@ -16381,6 +17731,12 @@
     "countryName": "Trinidad and Tobago",
     "countryShortCode": "TT",
     "phoneCode": "+1868",
+    "currency": [
+      {
+        "code": "TTD",
+        "name": "Trinidad and Tobago dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Arima",
@@ -16448,6 +17804,12 @@
     "countryName": "Tunisia",
     "countryShortCode": "TN",
     "phoneCode": "+216",
+    "currency": [
+      {
+        "code": "TND",
+        "name": "Tunisian dinar"
+      }
+    ],
     "regions": [
       {
         "name": "Ariana",
@@ -16547,6 +17909,12 @@
     "countryName": "Turkey",
     "countryShortCode": "TR",
     "phoneCode": "+90",
+    "currency": [
+      {
+        "code": "TRY",
+        "name": "Turkish lira"
+      }
+    ],
     "regions": [
       {
         "name": "Adana",
@@ -16878,6 +18246,12 @@
     "countryName": "Turkmenistan",
     "countryShortCode": "TM",
     "phoneCode": "+993",
+    "currency": [
+      {
+        "code": "TMT",
+        "name": "Turkmenistan manat"
+      }
+    ],
     "regions": [
       {
         "name": "Ahal",
@@ -16909,6 +18283,12 @@
     "countryName": "Turks and Caicos Islands",
     "countryShortCode": "TC",
     "phoneCode": "+1649",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Turks and Caicos Islands"
@@ -16919,6 +18299,12 @@
     "countryName": "Tuvalu",
     "countryShortCode": "TV",
     "phoneCode": "+688",
+    "currency": [
+      {
+        "code": "AUD",
+        "name": "Australian dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Funafuti",
@@ -16958,6 +18344,12 @@
     "countryName": "Uganda",
     "countryShortCode": "UG",
     "phoneCode": "+256",
+    "currency": [
+      {
+        "code": "UGX",
+        "name": "Ugandan shilling"
+      }
+    ],
     "regions": [
       {
         "name": "Abim",
@@ -17285,6 +18677,12 @@
     "countryName": "Ukraine",
     "countryShortCode": "UA",
     "phoneCode": "+380",
+    "currency": [
+      {
+        "code": "UAH",
+        "name": "Ukrainian hryvnia"
+      }
+    ],
     "regions": [
       {
         "name": "Cherkasy",
@@ -17400,6 +18798,12 @@
     "countryName": "United Arab Emirates",
     "countryShortCode": "AE",
     "phoneCode": "+971",
+    "currency": [
+      {
+        "code": "AED",
+        "name": "United Arab Emirates dirham"
+      }
+    ],
     "regions": [
       {
         "name": "Abu Dhabi",
@@ -17435,6 +18839,12 @@
     "countryName": "United Kingdom",
     "countryShortCode": "GB",
     "phoneCode": "+44",
+    "currency": [
+      {
+        "code": "GBP",
+        "name": "Pound sterling"
+      }
+    ],
     "regions": [
       {
         "name": "Aberdeen City",
@@ -18310,6 +19720,12 @@
     "countryName": "United States",
     "countryShortCode": "US",
     "phoneCode": "+1",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Alabama",
@@ -18565,6 +19981,12 @@
     "countryName": "United States Minor Outlying Islands",
     "countryShortCode": "UM",
     "phoneCode": "+1",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Baker Island",
@@ -18616,6 +20038,12 @@
     "countryName": "Uruguay",
     "countryShortCode": "UY",
     "phoneCode": "+598",
+    "currency": [
+      {
+        "code": "UYU",
+        "name": "Uruguayan Peso"
+      }
+    ],
     "regions": [
       {
         "name": "Artigas",
@@ -18699,6 +20127,12 @@
     "countryName": "Uzbekistan",
     "countryShortCode": "UZ",
     "phoneCode":"+998",
+    "currency": [
+      {
+        "code": "UZS",
+        "name": "Uzbekistani som"
+      }
+    ],
     "regions": [
       {
         "name": "Toshkent shahri",
@@ -18762,6 +20196,12 @@
     "countryName": "Vanuatu",
     "countryShortCode": "VU",
     "phoneCode": "+678",
+    "currency": [
+      {
+        "code": "VUV",
+        "name": "Vanuatu vatu"
+      }
+    ],
     "regions": [
       {
         "name": "Malampa",
@@ -18793,6 +20233,12 @@
     "countryName": "Venezuela, Bolivarian Republic of",
     "countryShortCode": "VE",
     "phoneCode": "+58",
+    "currency": [
+      {
+        "code": "VEF",
+        "name": "Venezuelan bolívar"
+      }
+    ],
     "regions": [
       {
         "name": "Dependencias Federales",
@@ -18900,6 +20346,12 @@
     "countryName": "Vietnam",
     "countryShortCode": "VN",
     "phoneCode": "+84",
+    "currency": [
+      {
+        "code": "VND",
+        "name": "Vietnamese đồng"
+      }
+    ],
     "regions": [
       {
         "name": "Đồng Nai",
@@ -19099,6 +20551,13 @@
     "countryName": "Virgin Islands, British",
     "countryShortCode": "VG",
     "phoneCode": "+1284",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States Dollar"
+      }
+    ],
+
     "regions": [
       {
         "name": "Anegada",
@@ -19122,6 +20581,12 @@
     "countryName": "Virgin Islands, U.S.",
     "countryShortCode": "VI",
     "phoneCode":"+1340",
+    "currency": [
+      {
+        "code": "",
+        "name": ""
+      }
+    ],
     "regions": [
       {
         "name": "St. Thomas",
@@ -19141,6 +20606,12 @@
     "countryName": "Wallis and Futuna",
     "countryShortCode": "WF",
     "phoneCode":"+681",
+    "currency": [
+      {
+        "code": "XPF",
+        "name": "CFP franc"
+      }
+    ],
     "regions": [
       {
         "name": "Alo",
@@ -19160,6 +20631,12 @@
     "countryName": "Western Sahara",
     "countryShortCode": "EH",
     "phoneCode":"+212",
+    "currency": [
+      {
+        "code": "MAD",
+        "name": "Moroccan dirham"
+      }
+    ],
       
     "regions": [
       {
@@ -19188,6 +20665,12 @@
     "countryName": "Yemen",
     "countryShortCode": "YE",
     "phoneCode": "+967",
+    "currency": [
+      {
+        "code": "YER",
+        "name": "Yemeni rial"
+      }
+    ],
     "regions": [
       {
         "name": "Abyān",
@@ -19275,6 +20758,12 @@
     "countryName": "Zambia",
     "countryShortCode": "ZM",
     "phoneCode": "+260",
+    "currency": [
+      {
+        "code": "ZMW",
+        "name": "Zambian kwacha"
+      }
+    ],
     "regions": [
       {
         "name": "Central",
@@ -19318,6 +20807,12 @@
     "countryName": "Zimbabwe",
     "countryShortCode": "ZW",
     "phoneCode": "+263",
+    "currency": [
+      {
+        "code": "USD",
+        "name": "United States dollar"
+      }
+    ],
     "regions": [
       {
         "name": "Bulawayo",
