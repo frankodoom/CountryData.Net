@@ -1,8 +1,12 @@
 
 <!-- logo -->
 
-![Logo](./Assets/CountryData.Net.Logo.png)
+<img src="./Assets/CountryData.Net.Logo.Small.png" alt="Logo" width="250" height="200"/>
 
+A cross-platform library designed to provide seamless access to global country data for .NET applications without making any http calls.
+Our aim is to simplify the process of integrating standardised global data into your applications, making it an ideal tool for developers who require international data.
+
+### Project Status
 
 | | |
 |-|-|
