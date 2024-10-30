@@ -6,5 +6,7 @@ namespace CountryData.Standard
     {
         public String Name { get; set; }
         public String ShortCode { get; set; }
+
+
     }
 }

@@ -1,0 +1,51 @@
+﻿@page "/"
+@using CountryData.Sample.Blazor.Components.Services
+@using CountryData.Standard
+
+<PageTitle>Home</PageTitle>
+
+@inject CountryService CountryService
+
+<h3>Country Data</h3>
+
+@if (countries == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <label for="countryDropdown">Select a country:</label>
+    <select id="countryDropdown" class="form-select">
+        @foreach (var country in countries)
+        {
+            <option value="@country.CountryShortCode">
+                @GrtCountryFlag(country.CountryShortCode) @country.CountryName (@country.PhoneCode)
+            </option>
+        }
+    </select>
+}
+
+@code {
+    /// <summary>
+    /// A collection of countries to be displayed on the page.
+    /// </summary>
+    private IEnumerable<Country>? countries;
+
+    /// <summary>
+    /// Initializes the component and loads the country data.
+    /// </summary>
+    protected override async Task OnInitializedAsync()
+    {
+        countries = await CountryService.GetCountries();
+    }
+
+    /// <summary>
+    /// Gets the country flag based on the country short code.
+    /// </summary>
+    /// <param name="countryShortCode">The short code of the country.</param>
+    /// <returns>The flag of the country.</returns>
+    public string GrtCountryFlag(string countryShortCode)
+    {
+        return CountryService.GetCountryFlag(countryShortCode);
+    }
+}
