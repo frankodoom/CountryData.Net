@@ -8,7 +8,7 @@
     <RepositoryUrl>https://github.com/frankodoom/CountryData.Standard</RepositoryUrl>
     <PackageTags>Xamarin, Country-Api Country-Data Country-Region</PackageTags>
     <NeutralLanguage />
-    <Version>1.4.1</Version>
+    <Version>1.5.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <ReleaseNotes>Added new functionality to get country phone codes</ReleaseNotes>
