@@ -11723,60 +11723,32 @@
     ],
     "regions": [
       {
+        "name": "Koshi",
+        "shortCode": "1"
+      },
+      {
+        "name": "Madhesh",
+        "shortCode": "2"
+      },
+      {
         "name": "Bagmati",
-        "shortCode": "BA"
-      },
-      {
-        "name": "Bheri",
-        "shortCode": "BH"
-      },
-      {
-        "name": "Dhawalagiri",
-        "shortCode": "DH"
+        "shortCode": "3"
       },
       {
         "name": "Gandaki",
-        "shortCode": "GA"
-      },
-      {
-        "name": "Janakpur",
-        "shortCode": "JA"
-      },
-      {
-        "name": "Karnali",
-        "shortCode": "KA"
-      },
-      {
-        "name": "Kosi",
-        "shortCode": "KO"
+        "shortCode": "4"
       },
       {
         "name": "Lumbini",
-        "shortCode": "LU"
+        "shortCode": "5"
       },
       {
-        "name": "Mahakali",
-        "shortCode": "MA"
+        "name": "Karnali",
+        "shortCode": "6"
       },
       {
-        "name": "Mechi",
-        "shortCode": "ME"
-      },
-      {
-        "name": "Narayani",
-        "shortCode": "NA"
-      },
-      {
-        "name": "Rapti",
-        "shortCode": "RA"
-      },
-      {
-        "name": "Sagarmatha",
-        "shortCode": "SA"
-      },
-      {
-        "name": "Seti",
-        "shortCode": "SE"
+        "name": "Sudurpashchim",
+        "shortCode": "7"
       }
     ]
   },
@@ -16537,39 +16509,39 @@
     ],
     "regions": [
       {
-        "name": "Basnahira",
+        "name": "Western Province",
         "shortCode": "1"
       },
       {
-        "name": "Dakunu",
+        "name": "Southern Province",
         "shortCode": "3"
       },
       {
-        "name": "Madhyama",
+        "name": "Central Province",
         "shortCode": "2"
       },
       {
-        "name": "Naegenahira",
+        "name": "Eastern Province",
         "shortCode": "5"
       },
       {
-        "name": "Sabaragamuwa",
+        "name": "Sabaragamuwa Province",
         "shortCode": "9"
       },
       {
-        "name": "Uturu",
+        "name": "Northern Province",
         "shortCode": "4"
       },
       {
-        "name": "Uturumaeda",
+        "name": "North Central Province",
         "shortCode": "7"
       },
       {
-        "name": "Vayamba",
+        "name": "North Western Province",
         "shortCode": "6"
       },
       {
-        "name": "Uva",
+        "name": "Uva Province",
         "shortCode": "8"
       }
     ]
