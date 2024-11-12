@@ -28,12 +28,12 @@ Our aim is to simplify the process of integrating standardised global data into 
 ### Install Library
 ##### Package Manager
 ```cSharp
-   PM> Install-Package CountryData.Standard -Version 1.4.1
+   PM> Install-Package CountryData.Standard -Version 1.5.0
 ```
 
 ##### .NET CLI
 ```cSharp
-   > dotnet add package CountryData.Standard --version 1.4.1
+   > dotnet add package CountryData.Standard --version 1.5.0
 ```
 
 
