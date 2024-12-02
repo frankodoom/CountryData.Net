@@ -22,13 +22,11 @@ namespace CountryData.Standard
             }
         }
 
-
         /// <summary>
         ///  Read 
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
-
         private string GetJsonData(string path)
         {
             string json = "";
@@ -52,7 +50,6 @@ namespace CountryData.Standard
             return _Countries;
         }
 
-
         /// <summary>
         /// Returns a single Country Data by ShortCode
         /// </summary>
@@ -73,7 +70,6 @@ namespace CountryData.Standard
             return string.Concat(shortCode.ToUpper().Select(x => char.ConvertFromUtf32(x + 0x1F1E6 - 'A')));
         }
 
-
         /// <summary>
         /// Selects Regions in a Particular Country
         /// </summary>
@@ -92,9 +88,6 @@ namespace CountryData.Standard
         /// <returns>IEnumerable<string> countries</returns>
         public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
 
-
-
-
         /// <summary>
         /// Returns a single Country's Phone Code by ShortCode
         /// </summary>
@@ -105,8 +98,6 @@ namespace CountryData.Standard
             var country = _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
             return country?.PhoneCode;
         }
-
-
 
         /// <summary>
         /// Returns a single Country Data by PhoneCode
@@ -119,7 +110,6 @@ namespace CountryData.Standard
             return Country;
         }
 
-
         /// <summary>
         /// Retrieves all currency codes for a given country identified by its short code.
         /// </summary>
@@ -131,7 +121,6 @@ namespace CountryData.Standard
                              .SelectMany(c => c.Currency)
                              .ToList();
         }
-
 
         /// <summary>
         /// Retrieves a list of countries that use a specific currency code.
@@ -148,7 +137,5 @@ namespace CountryData.Standard
 
             return _Countries.Where(c => c.Currency != null && c.Currency.Exists(currency => currency.Code == currencyCode));
         }
-
-
     }
 }

@@ -1,12 +1,8 @@
-﻿using System;
-
-namespace CountryData.Standard
+﻿namespace CountryData.Standard
 {
     public class Regions
     {
-        public String Name { get; set; }
-        public String ShortCode { get; set; }
-
-
+        public string Name { get; set; }
+        public string ShortCode { get; set; }
     }
 }
