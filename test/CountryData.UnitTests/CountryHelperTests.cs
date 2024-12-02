@@ -198,7 +198,7 @@ public class CountryHelperTests
     {
         // Arrange
         var countryHelper = new CountryHelper();
-        var field = typeof(CountryHelper).GetField("_Countries", BindingFlags.NonPublic | BindingFlags.Instance);
+        var field = typeof(CountryHelper).GetField("_countries", BindingFlags.NonPublic | BindingFlags.Instance);
         field.SetValue(countryHelper, null);
 
         // Act
