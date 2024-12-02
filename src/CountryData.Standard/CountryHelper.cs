@@ -115,8 +115,8 @@ namespace CountryData.Standard
         /// <returns>Country</returns>
         public IEnumerable<Country> GetCountryByPhoneCode(string phoneCode)
         {
-            var Country = _countries.Where(c => c.PhoneCode == phoneCode);
-            return Country;
+            var country = _countries.Where(c => c.PhoneCode == phoneCode);
+            return country;
         }
 
 
