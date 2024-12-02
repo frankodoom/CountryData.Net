@@ -9,14 +9,14 @@ namespace CountryData.Standard
 {
     public class CountryHelper
     {
-        private readonly IEnumerable<Country> _Countries;
+        private readonly IEnumerable<Country> _countries;
         private const string strFileName = "CountryData.Standard.data.json";
 
         public CountryHelper()
         {
             var json = GetJsonData(strFileName);
-            _Countries = JsonConvert.DeserializeObject<List<Country>>(json);
-            foreach (var country in _Countries)
+            _countries = JsonConvert.DeserializeObject<List<Country>>(json);
+            foreach (var country in _countries)
             {
                 country.CountryFlag = GetCountryEmojiFlag(country.CountryShortCode);
             }
@@ -49,7 +49,7 @@ namespace CountryData.Standard
         /// <returns>IEnumerable<Country></returns>
         public virtual IEnumerable<Country> GetCountryData()
         {
-            return _Countries;
+            return _countries;
         }
 
 
@@ -60,7 +60,7 @@ namespace CountryData.Standard
         /// <returns>Country</returns>
         public Country GetCountryByCode(string shortCode)
         {
-            return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            return _countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
         }
 
         /// <summary>
@@ -81,7 +81,7 @@ namespace CountryData.Standard
         /// <returns>List<Regions> a list of regions</returns>
         public List<Regions> GetRegionByCountryCode(string ShortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == ShortCode)
+            return _countries.Where(x => x.CountryShortCode == ShortCode)
                               .Select(r => r.Regions).FirstOrDefault()
                               .ToList();
         }
@@ -90,7 +90,7 @@ namespace CountryData.Standard
         /// Gets the list of all countries in the worlld
         /// </summary>
         /// <returns>IEnumerable<string> countries</returns>
-        public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
+        public IEnumerable<string> GetCountries() => _countries.Select(c => c.CountryName);
 
 
 
@@ -102,7 +102,7 @@ namespace CountryData.Standard
         /// <returns>string</returns>
         public string GetPhoneCodeByCountryShortCode(string shortCode)
         {
-            var country = _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            var country = _countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
             return country?.PhoneCode;
         }
 
@@ -115,7 +115,7 @@ namespace CountryData.Standard
         /// <returns>Country</returns>
         public IEnumerable<Country> GetCountryByPhoneCode(string phoneCode)
         {
-            var Country = _Countries.Where(c => c.PhoneCode == phoneCode);
+            var Country = _countries.Where(c => c.PhoneCode == phoneCode);
             return Country;
         }
 
@@ -127,7 +127,7 @@ namespace CountryData.Standard
         /// <returns>An IEnumerable of Currency objects associated with the specified country.</returns>
         public IEnumerable<Currency> GetCurrencyCodesByCountryCode(string shortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == shortCode)
+            return _countries.Where(x => x.CountryShortCode == shortCode)
                              .SelectMany(c => c.Currency)
                              .ToList();
         }
@@ -141,12 +141,12 @@ namespace CountryData.Standard
         /// <exception cref="InvalidOperationException">Thrown when the country data is not initialized.</exception>
         public IEnumerable<Country> GetCountryByCurrencyCode(string currencyCode)
         {
-            if (_Countries == null)
+            if (_countries == null)
             {
                 throw new InvalidOperationException("Country data is not initialized.");
             }
 
-            return _Countries.Where(c => c.Currency != null && c.Currency.Exists(currency => currency.Code == currencyCode));
+            return _countries.Where(c => c.Currency != null && c.Currency.Exists(currency => currency.Code == currencyCode));
         }
 
 
