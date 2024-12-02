@@ -44,9 +44,9 @@ namespace CountryData.Standard
 
         /// <summary>
         /// Returns All Country Data (Region, ShortCode, Country Name)
-        /// that can be querried by Lambda Expressions
+        /// that can be queried by Lambda Expressions
         /// </summary>
-        /// <returns>IEnumerable<Country></returns>
+        /// <returns>a list of countries</returns>
         public virtual IEnumerable<Country> GetCountryData()
         {
             return _Countries;
@@ -56,8 +56,8 @@ namespace CountryData.Standard
         /// <summary>
         /// Returns a single Country Data by ShortCode
         /// </summary>
-        /// <param name="ShortCode"></param>
-        /// <returns>Country</returns>
+        /// <param name="shortCode">a country short code</param>
+        /// <returns>a single country</returns>
         public Country GetCountryByCode(string shortCode)
         {
             return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
@@ -66,7 +66,7 @@ namespace CountryData.Standard
         /// <summary>
         /// Gets the flag of the country, in the form of an emoji.
         /// </summary>
-        /// <param name="country"></param>
+        /// <param name="shortCode">a country short code</param>
         /// <returns></returns>
         public string GetCountryEmojiFlag(string shortCode)
         {
@@ -78,7 +78,7 @@ namespace CountryData.Standard
         /// Selects Regions in a Particular Country
         /// </summary>
         /// <param name="ShortCode"></param>
-        /// <returns>List<Regions> a list of regions</returns>
+        /// <returns>a list of regions</returns>
         public List<Regions> GetRegionByCountryCode(string ShortCode)
         {
             return _Countries.Where(x => x.CountryShortCode == ShortCode)
@@ -89,7 +89,7 @@ namespace CountryData.Standard
         /// <summary>
         /// Gets the list of all countries in the worlld
         /// </summary>
-        /// <returns>IEnumerable<string> countries</returns>
+        /// <returns>a list of countries</returns>
         public IEnumerable<string> GetCountries() => _Countries.Select(c => c.CountryName);
 
 
