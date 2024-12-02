@@ -10,11 +10,11 @@ namespace CountryData.Standard
     public class CountryHelper
     {
         private readonly IEnumerable<Country> _countries;
-        private const string strFileName = "CountryData.Standard.data.json";
+        private const string StrFileName = "CountryData.Standard.data.json";
 
         public CountryHelper()
         {
-            var json = GetJsonData(strFileName);
+            var json = GetJsonData(StrFileName);
             _countries = JsonConvert.DeserializeObject<List<Country>>(json);
             foreach (var country in _countries)
             {
