@@ -27,7 +27,7 @@ public static class Program
         GetCurrencyCodesByCountryCode("US");
         GetCountryByCurrencyCode("GHS");
         GetCountryCode("Ghana");
-        GetllCurrencyCodesByCountryCode();
+        GetAllCurrencyCodesByCountryCode();
 
 
     }
@@ -169,7 +169,7 @@ public static class Program
     /// </summary>
     /// <param name="shortCode">The short country code to look up currency codes for.</param>
 
-    public static void GetllCurrencyCodesByCountryCode()
+    public static void GetAllCurrencyCodesByCountryCode()
     {
 
         var countryData = _helper.GetCountryData();
