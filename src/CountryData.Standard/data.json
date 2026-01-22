@@ -20566,8 +20566,8 @@
     "phoneCode":"+1340",
     "currency": [
       {
-        "code": "null",
-        "name": "null"
+        "code": "USD",
+        "name": "United States dollar"
       }
     ],
     "regions": [
