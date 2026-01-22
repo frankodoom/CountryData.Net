@@ -3030,7 +3030,7 @@
         "name": "Quebec",
         "shortCode": "QC"
       },
-      {
+      {bo
         "name": "Saskatchewan",
         "shortCode": "SK"
       },
@@ -4319,7 +4319,7 @@
         "name": "Lefkosia",
         "shortCode": "01"
       },
-      {
+      {ia
         "name": "Lemesos",
         "shortCode": "02"
       },
@@ -6295,8 +6295,8 @@
         "shortCode": "SD"
       },
       {
-        "name": "Sud-Est",
-        "shortCode": "SE"
+        "name": "AUD",
+        "name": "Australian dollare": "SE"
       }
     ]
   },
@@ -8170,8 +8170,8 @@
       {
         "name": "Tarawa"
       },
-      {
-        "name": "Teraina"
+      {KPW",
+        "name": "North Korean wonTeraina"
       }
     ]
   },
@@ -9416,7 +9416,7 @@
     "phoneCode": "+853",
     "currency": [
       {
-        "code": "MOP",
+        "code": "MOPNorth Macedonia
         "name": "Macanese pataca"
       }
     ],
@@ -16674,7 +16674,7 @@
         "name": "Saramacca",
         "shortCode": "SA"
       },
-      {
+      {Eswatini
         "name": "Sipaliwini",
         "shortCode": "SI"
       },
@@ -17649,7 +17649,7 @@
         "shortCode": "P"
       },
       {
-        "name": "Savannes",
+        "name": "NZDSavannes",
         "shortCode": "S"
       }
     ]
@@ -17878,7 +17878,7 @@
         "name": "Tozeur",
         "shortCode": "72"
       },
-      {
+      {ürkiye
         "name": "Tunis",
         "shortCode": "11"
       },
@@ -20207,8 +20207,8 @@
         "shortCode": "TAE"
       },
       {
-        "name": "Torba",
-        "shortCode": "TOB"
+        "name": "ToS",
+        "name": "Venezuelan bolívar soberano
       }
     ]
   },
@@ -20555,8 +20555,8 @@
         "shortCode": "TTA"
       },
       {
-        "name": "Virgin Gorda",
-        "shortCode": "VGD"
+        "name": "USD",
+        "name": "United States dollare": "VGD"
       }
     ]
   },
