@@ -167,7 +167,7 @@ public static class Program
     /// <summary>
     ///  Prints the currency codes for all countries to the console.
     /// </summary>
-    /// <param name="shortCode">The short country code to look up currency codes for.</param>"
+    /// <param name="shortCode">The short country code to look up currency codes for.</param>
 
     public static void GetllCurrencyCodesByCountryCode()
     {
