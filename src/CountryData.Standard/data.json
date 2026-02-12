@@ -756,10 +756,18 @@
       }
     ]
   },
+
   {
     "countryName": "Antarctica",
     "countryShortCode": "AQ",
     "phoneCode": "+672",
+    "currency": [
+      {
+        "code": null,
+        "name": null
+      }
+    ],
+
     "regions": [
       {
         "name": "Antarctica",
@@ -767,6 +775,9 @@
       }
     ]
   },
+
+
+
   {
     "countryName": "Antigua and Barbuda",
     "countryShortCode": "AG",
@@ -2221,8 +2232,8 @@
     "phoneCode": "+47",
     "currency": [
       {
-        "code": "",
-        "name": ""
+        "code": "null",
+        "name": "null"
       }
     ],
     "regions": [
@@ -3019,7 +3030,7 @@
         "name": "Quebec",
         "shortCode": "QC"
       },
-      {
+      {bo
         "name": "Saskatchewan",
         "shortCode": "SK"
       },
@@ -6284,8 +6295,8 @@
         "shortCode": "SD"
       },
       {
-        "name": "Sud-Est",
-        "shortCode": "SE"
+        "name": "AUD",
+        "name": "Australian dollare": "SE"
       }
     ]
   },
@@ -6295,8 +6306,8 @@
    "phoneCode": "+672",
    "currency": [
       {
-        "code": "",
-        "name": ""
+        "code": "null",
+        "name": " null"
       }
     ],
     "regions": [
@@ -8159,8 +8170,8 @@
       {
         "name": "Tarawa"
       },
-      {
-        "name": "Teraina"
+      {KPW",
+        "name": "North Korean wonTeraina"
       }
     ]
   },
@@ -8170,8 +8181,8 @@
     "phoneCode": "+850",
     "currency": [
       {
-        "code": "",
-        "name": ""
+        "code": "null",
+        "name": "null"
       }
     ],
     "regions": [
@@ -16663,7 +16674,7 @@
         "name": "Saramacca",
         "shortCode": "SA"
       },
-      {
+      {Eswatini
         "name": "Sipaliwini",
         "shortCode": "SI"
       },
@@ -20555,8 +20566,8 @@
     "phoneCode":"+1340",
     "currency": [
       {
-        "code": "",
-        "name": ""
+        "code": "USD",
+        "name": "United States dollar"
       }
     ],
     "regions": [
