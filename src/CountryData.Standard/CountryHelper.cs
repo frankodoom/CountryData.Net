@@ -11,6 +11,7 @@ namespace CountryData.Standard
     {
         private readonly IEnumerable<Country> _Countries;
         private const string strFileName = "CountryData.Standard.data.json";
+        private readonly Dictionary<string, Country> _countriesByShortCode;
 
         public CountryHelper()
         {
@@ -20,6 +21,7 @@ namespace CountryData.Standard
             {
                 country.CountryFlag = GetCountryEmojiFlag(country.CountryShortCode);
             }
+            _countriesByShortCode = _Countries.ToDictionary(c => c.CountryShortCode);
         }
 
 
@@ -58,9 +60,12 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="ShortCode"></param>
         /// <returns>Country</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the shortCode parameter is null.</exception>
+
         public Country GetCountryByCode(string shortCode)
         {
-            return _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            _countriesByShortCode.TryGetValue(shortCode, out var country);
+            return country;
         }
 
         /// <summary>
@@ -75,15 +80,18 @@ namespace CountryData.Standard
 
 
         /// <summary>
-        /// Selects Regions in a Particular Country
+        /// Selects Regions in a Particular Country, if the country is not found, it returns an empty list
         /// </summary>
         /// <param name="ShortCode"></param>
         /// <returns>List<Regions> a list of regions</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the shortCode parameter is null.</exception>
         public List<Regions> GetRegionByCountryCode(string ShortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == ShortCode)
-                              .Select(r => r.Regions).FirstOrDefault()
-                              .ToList();
+            _countriesByShortCode.TryGetValue(ShortCode, out var country);
+            
+            return country is null 
+                ? Enumerable.Empty<Regions>().ToList() 
+                : country.Regions.ToList();
         }
 
         /// <summary>
@@ -100,9 +108,11 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="shortCode"></param>
         /// <returns>string</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the shortCode parameter is null.</exception>
+
         public string GetPhoneCodeByCountryShortCode(string shortCode)
         {
-            var country = _Countries.SingleOrDefault(c => c.CountryShortCode == shortCode);
+            _countriesByShortCode.TryGetValue(shortCode, out var country);
             return country?.PhoneCode;
         }
 
@@ -125,11 +135,11 @@ namespace CountryData.Standard
         /// </summary>
         /// <param name="shortCode">The short code of the country.</param>
         /// <returns>An IEnumerable of Currency objects associated with the specified country.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the shortCode parameter is null.</exception>
         public IEnumerable<Currency> GetCurrencyCodesByCountryCode(string shortCode)
         {
-            return _Countries.Where(x => x.CountryShortCode == shortCode)
-                             .SelectMany(c => c.Currency)
-                             .ToList();
+            _countriesByShortCode.TryGetValue(shortCode, out var country);
+            return country?.Currency.ToList();
         }
 
 
